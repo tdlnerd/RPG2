@@ -1,0 +1,892 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset>
+    <contributor>
+      <author>Tanner</author>
+      <authoring_tool>Adobe Photoshop</authoring_tool>
+      <comments>1</comments>
+    </contributor>
+    <created>2015-10-24T18:17:44Z</created>
+    <modified>2015-10-24T18:17:44Z</modified>
+    <unit meter="1" name="meter"/>
+    <up_axis>Y_UP</up_axis>
+  </asset>
+  <library_cameras>
+    <camera id="Default_Camera1" name="Default_Camera">
+      <optics>
+        <technique_common>
+          <perspective>
+            <yfov>30</yfov>
+            <aspect_ratio>1.1</aspect_ratio>
+            <znear>1</znear>
+            <zfar>1000</zfar>
+          </perspective>
+        </technique_common>
+      </optics>
+    </camera>
+  </library_cameras>
+  <library_lights>
+    <light id="Infinite_Light_2" name="Infinite_Light_1">
+      <technique_common>
+        <directional>
+          <color>1 1 1</color>
+        </directional>
+      </technique_common>
+      <extra>
+        <technique profile="MAX3D">
+          <aspect_ratio>1</aspect_ratio>
+          <overshoot>1</overshoot>
+          <decay_type>0</decay_type>
+          <decay_start>10</decay_start>
+          <use_near_attenuation>1</use_near_attenuation>
+          <use_far_attenuation>1</use_far_attenuation>
+          <near_attenuation_start>1</near_attenuation_start>
+          <near_attenuation_end>2</near_attenuation_end>
+          <far_attenuation_start>5</far_attenuation_start>
+          <far_attenuation_end>10</far_attenuation_end>
+        </technique>
+        <technique profile="FCOLLADA">
+          <constant_attenuation>1</constant_attenuation>
+          <linear_attenuation>0</linear_attenuation>
+          <quadratic_attenuation>0</quadratic_attenuation>
+          <falloff_angle>5</falloff_angle>
+          <falloff_exponent>1</falloff_exponent>
+          <intensity>0.9</intensity>
+          <outer_cone>5</outer_cone>
+        </technique>
+      </extra>
+    </light>
+    <light id="Image_Based_Light_2" name="Image_Based_Light_1">
+      <technique_common>
+        <directional>
+          <color>0.1 0.1 0.1</color>
+        </directional>
+      </technique_common>
+      <extra>
+        <technique profile="FCOLLADA">
+          <constant_attenuation>1</constant_attenuation>
+          <linear_attenuation>0</linear_attenuation>
+          <quadratic_attenuation>0</quadratic_attenuation>
+          <falloff_angle>5</falloff_angle>
+          <falloff_exponent>1</falloff_exponent>
+          <intensity>1</intensity>
+          <outer_cone>5</outer_cone>
+        </technique>
+      </extra>
+      <extra type="adobe_light_type">
+        <technique profile="ADOBE">
+          <type>
+            <imageBased>1</imageBased>
+          </type>
+        </technique>
+      </extra>
+    </light>
+  </library_lights>
+  <library_images>
+    <image id="Layer_0.psd">
+      <init_from>./Layer%200.psd</init_from>
+      <extra>
+        <technique profile="MAYA">
+          <dgnode_type>kPSDFile</dgnode_type>
+        </technique>
+      </extra>
+    </image>
+    <image id="Layer_0.psd1">
+      <init_from>./Layer%200.psd</init_from>
+      <extra>
+        <technique profile="MAYA">
+          <dgnode_type>kPSDFile</dgnode_type>
+        </technique>
+      </extra>
+    </image>
+    <image id="Layer_0_Extrusion_Material_-_Default_Texture.psd">
+      <init_from>./Layer%200%20Extrusion%20Material%20-%20Default%20Texture.psd</init_from>
+      <extra>
+        <technique profile="MAYA">
+          <dgnode_type>kPSDFile</dgnode_type>
+        </technique>
+      </extra>
+    </image>
+    <image id="Layer_0.psd2">
+      <init_from>./Layer%200.psd</init_from>
+      <extra>
+        <technique profile="MAYA">
+          <dgnode_type>kPSDFile</dgnode_type>
+        </technique>
+      </extra>
+    </image>
+    <image id="Layer_0.psd3">
+      <init_from>./Layer%200.psd</init_from>
+      <extra>
+        <technique profile="MAYA">
+          <dgnode_type>kPSDFile</dgnode_type>
+        </technique>
+      </extra>
+    </image>
+    <image id="Default_IBL0000.tif">
+      <init_from>./Default%20IBL0000.tif</init_from>
+      <extra>
+        <technique profile="MAYA">
+          <dgnode_type>kFile</dgnode_type>
+        </technique>
+      </extra>
+    </image>
+  </library_images>
+  <library_materials>
+    <material id="Layer_0_Front_Inflation_Material" name="Layer_0_Front_Inflation_Material">
+      <instance_effect url="#Layer_0_Front_Inflation_Material-fx"/>
+    </material>
+    <material id="Layer_0_Front_Bevel_Material" name="Layer_0_Front_Bevel_Material">
+      <instance_effect url="#Layer_0_Front_Bevel_Material-fx"/>
+    </material>
+    <material id="Layer_0_Extrusion_Material" name="Layer_0_Extrusion_Material">
+      <instance_effect url="#Layer_0_Extrusion_Material-fx"/>
+    </material>
+    <material id="Layer_0_Back_Bevel_Material" name="Layer_0_Back_Bevel_Material">
+      <instance_effect url="#Layer_0_Back_Bevel_Material-fx"/>
+    </material>
+    <material id="Layer_0_Back_Inflation_Material" name="Layer_0_Back_Inflation_Material">
+      <instance_effect url="#Layer_0_Back_Inflation_Material-fx"/>
+    </material>
+    <material id="Ground_Plane_Material" name="Ground_Plane_Material">
+      <instance_effect url="#Ground_Plane_Material-fx"/>
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="Layer_0_Front_Inflation_Material-fx" name="Layer_0_Front_Inflation_Material">
+      <profile_COMMON>
+        <newparam sid="Layer_0_psd-surface">
+          <surface type="2D">
+            <init_from>Layer_0.psd</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="Layer_0_psd-sampler">
+          <sampler2D>
+            <source>Layer_0_psd-surface</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+            <minfilter>NONE</minfilter>
+            <magfilter>NONE</magfilter>
+            <mipfilter>NONE</mipfilter>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <emission>
+              <color>0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color>0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <texture texture="Layer_0_psd-sampler" texcoord="UVSET0">
+                <extra>
+                  <technique profile="MAX3D">
+                    <amount>1</amount>
+                  </technique>
+                </extra>
+                <extra type="texture_offset">
+                  <technique profile="ADOBE">
+                    <offsets>
+                      <offsetu>0.000016</offsetu>
+                      <offsetv>0.000016</offsetv>
+                      <scaleu>0.999965</scaleu>
+                      <scalev>0.999966</scalev>
+                      <angle>0</angle>
+                    </offsets>
+                  </technique>
+                </extra>
+              </texture>
+            </diffuse>
+            <specular>
+              <color>0.2 0.2 0.2 1</color>
+            </specular>
+            <shininess>
+              <float>0.2</float>
+            </shininess>
+            <reflective>
+              <color>1 1 1 1</color>
+            </reflective>
+            <reflectivity>
+              <float>0</float>
+            </reflectivity>
+            <transparent opaque="A_ONE">
+              <color>0 0 0 1</color>
+            </transparent>
+            <transparency>
+              <float>1</float>
+            </transparency>
+            <index_of_refraction>
+              <float>1</float>
+            </index_of_refraction>
+          </phong>
+          <extra>
+            <technique profile="FCOLLADA"/>
+          </extra>
+        </technique>
+        <extra type="material_overlay">
+          <technique profile="ADOBE">
+            <colors>
+              <diffuse_color>0.5 0.5 0.5</diffuse_color>
+              <specular_color>0.2 0.2 0.2</specular_color>
+              <reflectivity_factor>0</reflectivity_factor>
+              <shininess>0.2</shininess>
+              <roughness>0</roughness>
+            </colors>
+          </technique>
+        </extra>
+      </profile_COMMON>
+      <extra>
+        <technique profile="MAX3D">
+          <faceted>0</faceted>
+          <double_sided>1</double_sided>
+          <wireframe>0</wireframe>
+          <face_map>0</face_map>
+        </technique>
+      </extra>
+    </effect>
+    <effect id="Layer_0_Front_Bevel_Material-fx" name="Layer_0_Front_Bevel_Material">
+      <profile_COMMON>
+        <newparam sid="Layer_0_psd1-surface">
+          <surface type="2D">
+            <init_from>Layer_0.psd1</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="Layer_0_psd1-sampler">
+          <sampler2D>
+            <source>Layer_0_psd1-surface</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+            <minfilter>NONE</minfilter>
+            <magfilter>NONE</magfilter>
+            <mipfilter>NONE</mipfilter>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <emission>
+              <color>0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color>0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <texture texture="Layer_0_psd1-sampler" texcoord="UVSET0">
+                <extra>
+                  <technique profile="MAX3D">
+                    <amount>1</amount>
+                  </technique>
+                </extra>
+                <extra type="texture_offset">
+                  <technique profile="ADOBE">
+                    <offsets>
+                      <offsetu>0.000016</offsetu>
+                      <offsetv>0.000016</offsetv>
+                      <scaleu>0.999965</scaleu>
+                      <scalev>0.999966</scalev>
+                      <angle>0</angle>
+                    </offsets>
+                  </technique>
+                </extra>
+              </texture>
+            </diffuse>
+            <specular>
+              <color>0.2 0.2 0.2 1</color>
+            </specular>
+            <shininess>
+              <float>0.2</float>
+            </shininess>
+            <reflective>
+              <color>1 1 1 1</color>
+            </reflective>
+            <reflectivity>
+              <float>0</float>
+            </reflectivity>
+            <transparent opaque="A_ONE">
+              <color>0 0 0 1</color>
+            </transparent>
+            <transparency>
+              <float>1</float>
+            </transparency>
+            <index_of_refraction>
+              <float>1</float>
+            </index_of_refraction>
+          </phong>
+          <extra>
+            <technique profile="FCOLLADA"/>
+          </extra>
+        </technique>
+        <extra type="material_overlay">
+          <technique profile="ADOBE">
+            <colors>
+              <diffuse_color>0.5 0.5 0.5</diffuse_color>
+              <specular_color>0.2 0.2 0.2</specular_color>
+              <reflectivity_factor>0</reflectivity_factor>
+              <shininess>0.2</shininess>
+              <roughness>0</roughness>
+            </colors>
+          </technique>
+        </extra>
+      </profile_COMMON>
+      <extra>
+        <technique profile="MAX3D">
+          <faceted>0</faceted>
+          <double_sided>1</double_sided>
+          <wireframe>0</wireframe>
+          <face_map>0</face_map>
+        </technique>
+      </extra>
+    </effect>
+    <effect id="Layer_0_Extrusion_Material-fx" name="Layer_0_Extrusion_Material">
+      <profile_COMMON>
+        <newparam sid="Layer_0_Extrusion_Material_-_Default_Texture_psd-surface">
+          <surface type="2D">
+            <init_from>Layer_0_Extrusion_Material_-_Default_Texture.psd</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="Layer_0_Extrusion_Material_-_Default_Texture_psd-sampler">
+          <sampler2D>
+            <source>Layer_0_Extrusion_Material_-_Default_Texture_psd-surface</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+            <minfilter>NONE</minfilter>
+            <magfilter>NONE</magfilter>
+            <mipfilter>NONE</mipfilter>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <emission>
+              <color>0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color>0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <texture texture="Layer_0_Extrusion_Material_-_Default_Texture_psd-sampler" texcoord="UVSET0">
+                <extra>
+                  <technique profile="MAX3D">
+                    <amount>1</amount>
+                  </technique>
+                </extra>
+                <extra type="texture_offset">
+                  <technique profile="ADOBE">
+                    <offsets>
+                      <offsetu>0</offsetu>
+                      <offsetv>0</offsetv>
+                      <scaleu>1</scaleu>
+                      <scalev>1</scalev>
+                      <angle>0</angle>
+                    </offsets>
+                  </technique>
+                </extra>
+              </texture>
+            </diffuse>
+            <specular>
+              <color>0.2 0.2 0.2 1</color>
+            </specular>
+            <shininess>
+              <float>0.2</float>
+            </shininess>
+            <reflective>
+              <color>1 1 1 1</color>
+            </reflective>
+            <reflectivity>
+              <float>0</float>
+            </reflectivity>
+            <transparent opaque="A_ONE">
+              <color>0 0 0 1</color>
+            </transparent>
+            <transparency>
+              <float>1</float>
+            </transparency>
+            <index_of_refraction>
+              <float>1</float>
+            </index_of_refraction>
+          </phong>
+          <extra>
+            <technique profile="FCOLLADA"/>
+          </extra>
+        </technique>
+        <extra type="material_overlay">
+          <technique profile="ADOBE">
+            <colors>
+              <diffuse_color>0.5 0.5 0.5</diffuse_color>
+              <specular_color>0.2 0.2 0.2</specular_color>
+              <reflectivity_factor>0</reflectivity_factor>
+              <shininess>0.2</shininess>
+              <roughness>0</roughness>
+            </colors>
+          </technique>
+        </extra>
+      </profile_COMMON>
+      <extra>
+        <technique profile="MAX3D">
+          <faceted>0</faceted>
+          <double_sided>1</double_sided>
+          <wireframe>0</wireframe>
+          <face_map>0</face_map>
+        </technique>
+      </extra>
+    </effect>
+    <effect id="Layer_0_Back_Bevel_Material-fx" name="Layer_0_Back_Bevel_Material">
+      <profile_COMMON>
+        <newparam sid="Layer_0_psd2-surface">
+          <surface type="2D">
+            <init_from>Layer_0.psd2</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="Layer_0_psd2-sampler">
+          <sampler2D>
+            <source>Layer_0_psd2-surface</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+            <minfilter>NONE</minfilter>
+            <magfilter>NONE</magfilter>
+            <mipfilter>NONE</mipfilter>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <emission>
+              <color>0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color>0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <texture texture="Layer_0_psd2-sampler" texcoord="UVSET0">
+                <extra>
+                  <technique profile="MAX3D">
+                    <amount>1</amount>
+                  </technique>
+                </extra>
+                <extra type="texture_offset">
+                  <technique profile="ADOBE">
+                    <offsets>
+                      <offsetu>0.000016</offsetu>
+                      <offsetv>0.000016</offsetv>
+                      <scaleu>0.999965</scaleu>
+                      <scalev>0.999966</scalev>
+                      <angle>0</angle>
+                    </offsets>
+                  </technique>
+                </extra>
+              </texture>
+            </diffuse>
+            <specular>
+              <color>0.2 0.2 0.2 1</color>
+            </specular>
+            <shininess>
+              <float>0.2</float>
+            </shininess>
+            <reflective>
+              <color>1 1 1 1</color>
+            </reflective>
+            <reflectivity>
+              <float>0</float>
+            </reflectivity>
+            <transparent opaque="A_ONE">
+              <color>0 0 0 1</color>
+            </transparent>
+            <transparency>
+              <float>1</float>
+            </transparency>
+            <index_of_refraction>
+              <float>1</float>
+            </index_of_refraction>
+          </phong>
+          <extra>
+            <technique profile="FCOLLADA"/>
+          </extra>
+        </technique>
+        <extra type="material_overlay">
+          <technique profile="ADOBE">
+            <colors>
+              <diffuse_color>0.5 0.5 0.5</diffuse_color>
+              <specular_color>0.2 0.2 0.2</specular_color>
+              <reflectivity_factor>0</reflectivity_factor>
+              <shininess>0.2</shininess>
+              <roughness>0</roughness>
+            </colors>
+          </technique>
+        </extra>
+      </profile_COMMON>
+      <extra>
+        <technique profile="MAX3D">
+          <faceted>0</faceted>
+          <double_sided>1</double_sided>
+          <wireframe>0</wireframe>
+          <face_map>0</face_map>
+        </technique>
+      </extra>
+    </effect>
+    <effect id="Layer_0_Back_Inflation_Material-fx" name="Layer_0_Back_Inflation_Material">
+      <profile_COMMON>
+        <newparam sid="Layer_0_psd3-surface">
+          <surface type="2D">
+            <init_from>Layer_0.psd3</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="Layer_0_psd3-sampler">
+          <sampler2D>
+            <source>Layer_0_psd3-surface</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+            <minfilter>NONE</minfilter>
+            <magfilter>NONE</magfilter>
+            <mipfilter>NONE</mipfilter>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <emission>
+              <color>0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color>0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <texture texture="Layer_0_psd3-sampler" texcoord="UVSET0">
+                <extra>
+                  <technique profile="MAX3D">
+                    <amount>1</amount>
+                  </technique>
+                </extra>
+                <extra type="texture_offset">
+                  <technique profile="ADOBE">
+                    <offsets>
+                      <offsetu>0.000016</offsetu>
+                      <offsetv>0.000016</offsetv>
+                      <scaleu>0.999965</scaleu>
+                      <scalev>0.999966</scalev>
+                      <angle>0</angle>
+                    </offsets>
+                  </technique>
+                </extra>
+              </texture>
+            </diffuse>
+            <specular>
+              <color>0.2 0.2 0.2 1</color>
+            </specular>
+            <shininess>
+              <float>0.2</float>
+            </shininess>
+            <reflective>
+              <color>1 1 1 1</color>
+            </reflective>
+            <reflectivity>
+              <float>0</float>
+            </reflectivity>
+            <transparent opaque="A_ONE">
+              <color>0 0 0 1</color>
+            </transparent>
+            <transparency>
+              <float>1</float>
+            </transparency>
+            <index_of_refraction>
+              <float>1</float>
+            </index_of_refraction>
+          </phong>
+          <extra>
+            <technique profile="FCOLLADA"/>
+          </extra>
+        </technique>
+        <extra type="material_overlay">
+          <technique profile="ADOBE">
+            <colors>
+              <diffuse_color>0.5 0.5 0.5</diffuse_color>
+              <specular_color>0.2 0.2 0.2</specular_color>
+              <reflectivity_factor>0</reflectivity_factor>
+              <shininess>0.2</shininess>
+              <roughness>0</roughness>
+            </colors>
+          </technique>
+        </extra>
+      </profile_COMMON>
+      <extra>
+        <technique profile="MAX3D">
+          <faceted>0</faceted>
+          <double_sided>1</double_sided>
+          <wireframe>0</wireframe>
+          <face_map>0</face_map>
+        </technique>
+      </extra>
+    </effect>
+    <effect id="Ground_Plane_Material-fx" name="Ground_Plane_Material">
+      <profile_COMMON>
+        <newparam sid="Default_IBL0000_tif-surface">
+          <surface type="2D">
+            <init_from>Default_IBL0000.tif</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="Default_IBL0000_tif-sampler">
+          <sampler2D>
+            <source>Default_IBL0000_tif-surface</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+            <minfilter>NONE</minfilter>
+            <magfilter>NONE</magfilter>
+            <mipfilter>NONE</mipfilter>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <emission>
+              <color>0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color>1 1 1 1</color>
+            </ambient>
+            <diffuse>
+              <color>0 0 0 1</color>
+            </diffuse>
+            <specular>
+              <color>1 1 1 1</color>
+            </specular>
+            <shininess>
+              <float>0.2</float>
+            </shininess>
+            <reflective>
+              <color>1 1 1 1</color>
+            </reflective>
+            <reflectivity>
+              <float>0</float>
+            </reflectivity>
+            <transparent opaque="A_ONE">
+              <color>0 0 0 1</color>
+            </transparent>
+            <transparency>
+              <float>0.6</float>
+            </transparency>
+            <index_of_refraction>
+              <float>1</float>
+            </index_of_refraction>
+          </phong>
+          <extra>
+            <technique profile="FCOLLADA">
+              <imagebased>
+                <texture texture="Default_IBL0000_tif-sampler" texcoord="UVSET0">
+                  <extra>
+                    <technique profile="MAX3D">
+                      <amount>1</amount>
+                    </technique>
+                  </extra>
+                  <extra type="texture_offset">
+                    <technique profile="ADOBE">
+                      <offsets>
+                        <offsetu>0</offsetu>
+                        <offsetv>0</offsetv>
+                        <scaleu>1</scaleu>
+                        <scalev>1</scalev>
+                        <angle>0</angle>
+                      </offsets>
+                    </technique>
+                  </extra>
+                </texture>
+              </imagebased>
+            </technique>
+          </extra>
+        </technique>
+        <extra type="material_overlay">
+          <technique profile="ADOBE">
+            <colors>
+              <diffuse_color>0 0 0</diffuse_color>
+              <specular_color>1 1 1</specular_color>
+              <reflectivity_factor>0</reflectivity_factor>
+              <shininess>0.2</shininess>
+              <roughness>0</roughness>
+            </colors>
+          </technique>
+        </extra>
+        <extra type="adobe_gp_material">
+          <technique profile="ADOBE">
+            <gp_material>
+              <is_gp_material>1</is_gp_material>
+            </gp_material>
+          </technique>
+        </extra>
+      </profile_COMMON>
+      <extra>
+        <technique profile="MAX3D">
+          <faceted>0</faceted>
+          <double_sided>1</double_sided>
+          <wireframe>0</wireframe>
+          <face_map>0</face_map>
+        </technique>
+      </extra>
+    </effect>
+  </library_effects>
+  <library_geometries>
+    <geometry id="Layer_1" name="Layer_0">
+      <mesh>
+        <source id="Layer_1-positions">
+          <float_array id="Layer_1-positions-array" count="276">45.0029 45.0026 0 0.0027 0.00241 0 0.0027 149.997 0 22.5 127.5 0 44.9973 149.997 0 22.4999 97.505 0 44.9973 120 0 37.4999 82.5039 0 74.997 119.998 0 37.4999 52.5061 0 74.997 89.9997 0 59.998 45.0017 0 104.998 89.997 0 74.9973 30.0024 0 104.998 60 0 104.998 30.0011 0 134.997 59.9973 0 119.998 15.002 0 134.997 30.0003 0 164.997 29.9976 0 149.999 15.0006 0 164.997 0.00241 0 0.0027 0.00241 0 0.0027 149.997 0 0.0027 0.00241 -149.995 0.0027 149.997 -149.995 0.0027 149.997 0 44.9973 149.997 0 0.0027 149.997 -149.995 44.9973 149.997 -149.995 44.9973 149.997 0 44.9973 120 0 44.9973 149.997 -149.995 44.9973 120 -149.995 44.9973 120 0 74.997 119.998 0 44.9973 120 -149.995 74.997 119.998 -149.995 74.997 119.998 0 74.997 89.9997 0 74.997 119.998 -149.995 74.997 89.9997 -149.995 74.997 89.9997 0 104.998 89.997 0 74.997 89.9997 -149.995 104.998 89.997 -149.995 104.998 89.997 0 104.998 60 0 104.998 89.997 -149.995 104.998 60 -149.995 104.998 60 0 134.997 59.9973 0 104.998 60 -149.995 134.997 59.9973 -149.995 134.997 59.9973 0 134.997 30.0003 0 134.997 59.9973 -149.995 134.997 30.0003 -149.995 134.997 30.0003 0 164.997 29.9976 0 134.997 30.0003 -149.995 164.997 29.9976 -149.995 164.997 29.9976 0 164.997 0.00241 0 164.997 29.9976 -149.995 164.997 0.00241 -149.995 164.997 0.00241 0 0.0027 0.00241 0 164.997 0.00241 -149.995 0.0027 0.00241 -149.995 45.0029 45.0026 -149.995 0.0027 0.00241 -149.995 0.0027 149.997 -149.995 22.5 127.5 -149.995 44.9973 149.997 -149.995 22.4999 97.505 -149.995 44.9973 120 -149.995 37.4999 82.5039 -149.995 74.997 119.998 -149.995 37.4999 52.5061 -149.995 74.997 89.9997 -149.995 59.998 45.0017 -149.995 104.998 89.997 -149.995 74.9973 30.0024 -149.995 104.998 60 -149.995 104.998 30.0011 -149.995 134.997 59.9973 -149.995 119.998 15.002 -149.995 134.997 30.0003 -149.995 164.997 29.9976 -149.995 149.999 15.0006 -149.995 164.997 0.00241 -149.995</float_array>
+          <technique_common>
+            <accessor source="#Layer_1-positions-array" count="92" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Layer_1-normals">
+          <float_array id="Layer_1-normals-array" count="276">0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 -1 0 0 -1 0 0 -1 0 0 -1 0 0 0 1 0 0 1 0 0 1 0 0 1 0 1 0 0 1 0 0 1 0 0 1 0 0 0.000089 1 0 0.000089 1 0 0.000089 1 0 0.000089 1 0 1 0 0 1 0 0 1 0 0 1 0 0 0.000089 1 0 0.000089 1 0 0.000089 1 0 0.000089 1 0 1 0 0 1 0 0 1 0 0 1 0 0 0.00009 1 0 0.00009 1 0 0.00009 1 0 0.00009 1 0 1 0 0 1 0 0 1 0 0 1 0 0 0.000089 1 0 0.000089 1 0 0.000089 1 0 0.000089 1 0 1 0 0 1 0 0 1 0 0 1 0 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1</float_array>
+          <technique_common>
+            <accessor source="#Layer_1-normals-array" count="92" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Layer_1-texcoords">
+          <float_array id="Layer_1-texcoords-array" count="184">0.272738 0.300012 0 0 0 1 0.136352 0.850013 0.272704 1 0.136352 0.650039 0.272704 0.800013 0.227264 0.550028 0.454527 0.799995 0.227264 0.350036 0.454527 0.600002 0.36362 0.300006 0.636355 0.599984 0.454528 0.200007 0.636355 0.399998 0.63636 0.199998 0.818177 0.39998 0.727268 0.100001 0.818177 0.199993 1 0.199975 0.909098 0.099991 1 0 1 1 0.761901 1 1 0 0.761901 0 0.761901 1 0.690477 1 0.761901 0 0.690477 0 0.690477 1 0.64286 1 0.690477 0 0.64286 0 0.64286 1 0.595239 1 0.64286 0 0.595239 0 0.595239 1 0.547621 1 0.595239 0 0.547621 0 0.547621 1 0.499999 1 0.547621 0 0.499999 0 0.499999 1 0.452382 1 0.499999 0 0.452382 0 0.452382 1 0.404761 1 0.452382 0 0.404761 0 0.404761 1 0.357144 1 0.404761 0 0.357144 0 0.357144 1 0.309523 1 0.357144 0 0.309523 0 0.309523 1 0.261909 1 0.309523 0 0.261909 0 0.261909 1 0 1 0.261909 0 0 0 0.272738 0.300012 0 0 0 1 0.136352 0.850013 0.272704 1 0.136352 0.650039 0.272704 0.800013 0.227264 0.550028 0.454527 0.799995 0.227264 0.350036 0.454527 0.600002 0.36362 0.300006 0.636355 0.599984 0.454528 0.200007 0.636355 0.399998 0.63636 0.199998 0.818177 0.39998 0.727268 0.100001 0.818177 0.199993 1 0.199975 0.909098 0.099991 1 0</float_array>
+          <technique_common>
+            <accessor source="#Layer_1-texcoords-array" count="92" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Layer_1-vertices">
+          <input semantic="POSITION" source="#Layer_1-positions"/>
+        </vertices>
+        <triangles material="Layer_0_Front_Inflation_Material" count="30">
+          <input semantic="VERTEX" source="#Layer_1-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#Layer_1-normals" offset="0"/>
+          <input semantic="TEXCOORD" source="#Layer_1-texcoords" offset="0"/>
+          <p>9 7 1 4 2 3 5 6 3 8 6 7 9 10 7 12 10 11 13 14 11 16 14 15 17 18 15 19 18 20 21 19 20 0 1 11 0 9 1 7 5 1 1 5 2 3 2 5 4 3 6 5 7 6 8 7 10 11 10 0 9 0 10 12 11 14 13 15 14 16 15 18 17 20 18 11 1 13 13 1 17 15 13 17 1 21 17 20 17 21</p>
+        </triangles>
+        <triangles material="Layer_0_Front_Bevel_Material" count="1">
+          <input semantic="VERTEX" source="#Layer_1-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#Layer_1-normals" offset="0"/>
+          <input semantic="TEXCOORD" source="#Layer_1-texcoords" offset="0"/>
+          <p>0 0 0</p>
+        </triangles>
+        <triangles material="Layer_0_Extrusion_Material" count="24">
+          <input semantic="VERTEX" source="#Layer_1-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#Layer_1-normals" offset="0"/>
+          <input semantic="TEXCOORD" source="#Layer_1-texcoords" offset="0"/>
+          <p>24 22 23 24 23 25 28 26 27 28 27 29 32 30 31 32 31 33 36 34 35 36 35 37 40 38 39 40 39 41 44 42 43 44 43 45 48 46 47 48 47 49 52 50 51 52 51 53 56 54 55 56 55 57 60 58 59 60 59 61 64 62 63 64 63 65 68 66 67 68 67 69</p>
+        </triangles>
+        <triangles material="Layer_0_Back_Bevel_Material" count="1">
+          <input semantic="VERTEX" source="#Layer_1-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#Layer_1-normals" offset="0"/>
+          <input semantic="TEXCOORD" source="#Layer_1-texcoords" offset="0"/>
+          <p>0 0 0</p>
+        </triangles>
+        <triangles material="Layer_0_Back_Inflation_Material" count="30">
+          <input semantic="VERTEX" source="#Layer_1-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#Layer_1-normals" offset="0"/>
+          <input semantic="TEXCOORD" source="#Layer_1-texcoords" offset="0"/>
+          <p>77 79 71 72 74 73 76 75 73 76 78 77 80 79 77 80 82 81 84 83 81 84 86 85 88 87 85 88 89 90 89 91 90 71 70 81 79 70 71 75 77 71 75 71 72 72 73 75 73 74 76 77 75 76 77 78 80 80 81 70 70 79 80 81 82 84 85 83 84 85 86 88 90 87 88 71 81 83 71 83 87 83 85 87 91 71 87 87 90 91</p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="DefaultScene">
+      <node id="Layer_0" name="Layer_0" type="NODE">
+        <matrix>1 0 0 -82.4998 0 1 0 -74.9999 0 0 1 74.9974 0 0 0 1</matrix>
+        <instance_geometry url="#Layer_1">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Layer_0_Front_Inflation_Material" target="#Layer_0_Front_Inflation_Material"/>
+              <instance_material symbol="Layer_0_Front_Bevel_Material" target="#Layer_0_Front_Bevel_Material"/>
+              <instance_material symbol="Layer_0_Extrusion_Material" target="#Layer_0_Extrusion_Material"/>
+              <instance_material symbol="Layer_0_Back_Bevel_Material" target="#Layer_0_Back_Bevel_Material"/>
+              <instance_material symbol="Layer_0_Back_Inflation_Material" target="#Layer_0_Back_Inflation_Material"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+        <extra type="pivot_use">
+          <technique profile="ADOBE">
+            <use_pivot>
+              <needPivot>0</needPivot>
+            </use_pivot>
+          </technique>
+        </extra>
+      </node>
+      <node id="Infinite_Light_1" name="Infinite_Light_1" type="NODE">
+        <lookat>92.503 154.729 32.6975 92.4285 154.136 31.896 0 1 0</lookat>
+        <instance_light url="#Infinite_Light_2"/>
+      </node>
+      <node id="Image_Based_Light_1" name="Image_Based_Light_1" type="NODE">
+        <instance_light url="#Image_Based_Light_2"/>
+      </node>
+      <node id="Default_Camera" name="Default_Camera" type="NODE">
+        <lookat>-0.499847 0.000144 354.901 -0.499847 0.000145 353.901 0 1 0</lookat>
+        <instance_camera url="#Default_Camera1"/>
+      </node>
+      <extra type="render_settings">
+        <technique profile="ADOBE">
+          <faces>
+            <render_faces>1</render_faces>
+            <face_style>4</face_style>
+            <face_color>1 1 1</face_color>
+            <texture_type>0</texture_type>
+            <anti_alias_quality>1</anti_alias_quality>
+            <show_reflections>1</show_reflections>
+            <show_refractions>1</show_refractions>
+            <show_shadows>1</show_shadows>
+            <remove_backfaces>0</remove_backfaces>
+          </faces>
+          <edges>
+            <render_edges>0</render_edges>
+            <line_style>1</line_style>
+            <line_color>0 0 0</line_color>
+            <line_width>1</line_width>
+            <crease_value>0</crease_value>
+            <remove_backface_lines>0</remove_backface_lines>
+            <remove_hidden_lines>1</remove_hidden_lines>
+          </edges>
+          <vertices>
+            <render_vertices>0</render_vertices>
+            <vertex_style>1</vertex_style>
+            <vertex_color>0 0 0</vertex_color>
+            <vertex_radius>1</vertex_radius>
+            <remove_backface_vertices>0</remove_backface_vertices>
+            <remove_hidden_vertices>1</remove_hidden_vertices>
+          </vertices>
+          <volumes>
+            <render_volume>0</render_volume>
+            <volume_style>2097152</volume_style>
+            <transfer_function0/>
+            <transfer_function1/>
+            <transfer_function2/>
+            <transfer_function3/>
+            <gradient_enhancement>1</gradient_enhancement>
+            <opacity_scale>1</opacity_scale>
+          </volumes>
+          <stereo>
+            <render_stereo>0</render_stereo>
+            <stereo_style>16384</stereo_style>
+            <stereo_offset>5</stereo_offset>
+            <stereo_line_spacing>40</stereo_line_spacing>
+          </stereo>
+          <internal>
+            <projection>0</projection>
+            <blend_unlit>0</blend_unlit>
+          </internal>
+        </technique>
+      </extra>
+      <extra type="background_image_type">
+        <technique profile="ADOBE">
+          <type>
+            <image_type>0</image_type>
+          </type>
+        </technique>
+      </extra>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#DefaultScene"/>
+  </scene>
+</COLLADA>

@@ -1,0 +1,330 @@
+fileFormatVersion: 2
+guid: 54c3d82e4a71a4884a6591382fdf2987
+timeCreated: 1446212681
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Smoke_0
+    21300002: Smoke_1
+    21300004: Smoke_2
+    21300006: Smoke_3
+    21300008: Smoke_4
+    21300010: Smoke_5
+    21300012: Smoke_6
+    21300014: Smoke_7
+    21300016: Smoke_8
+    21300018: Smoke_9
+    21300020: Smoke_10
+    21300022: Smoke_11
+    21300024: Smoke_12
+    21300026: Smoke_13
+    21300028: Smoke_14
+    21300030: Smoke_15
+    21300032: Smoke_16
+    21300034: Smoke_17
+    21300036: Smoke_18
+    21300038: Smoke_19
+    21300040: Smoke_20
+    21300042: Smoke_21
+    21300044: Smoke_22
+    21300046: Smoke_23
+    21300048: Smoke_24
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Smoke_0
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 163
+        width: 95
+        height: 29
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Smoke_1
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 24
+        width: 186
+        height: 138
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Smoke_2
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 36
+        width: 144
+        height: 120
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Smoke_3
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 144
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Smoke_4
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 132
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Smoke_5
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 132
+        width: 60
+        height: 12
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Smoke_6
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 120
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Smoke_7
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 114
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Smoke_8
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 102
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Smoke_9
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 84
+        width: 24
+        height: 36
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Smoke_10
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 108
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Smoke_11
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 96
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Smoke_12
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 90
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Smoke_13
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 108
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Smoke_14
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 102
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Smoke_15
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 96
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Smoke_16
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 72
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Smoke_17
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 54
+        width: 48
+        height: 42
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Smoke_18
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 84
+        width: 24
+        height: 12
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Smoke_19
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 60
+        width: 24
+        height: 18
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Smoke_20
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 42
+        width: 12
+        height: 36
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Smoke_21
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 72
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Smoke_22
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 72
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Smoke_23
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 72
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Smoke_24
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 36
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
