@@ -7,7 +7,7 @@ var Anim : Animator;
 function Update () {
 	if (Input.GetKeyDown("x")) {
 		if (SwordMenu.isOn == true) {
-		Anim.SetTrigger("Sword");
+		Attack();
 		}
 		if (BombMenu.isOn == true && BombCount > 0) {
 		var b = Instantiate(Bomb, transform.position, transform.rotation);
@@ -20,3 +20,8 @@ function Update () {
 	BombCounter.text = "x " + BombCount.ToString();
 }
 
+function Attack() {
+Anim.SetBool("Sword", true);
+yield WaitForSeconds(0.5);
+Anim.SetBool("Sword", false);
+}

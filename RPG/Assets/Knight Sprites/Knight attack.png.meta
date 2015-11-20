@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 6f0024c8e16df4b96aabf9b57a93504d
-timeCreated: 1448033942
+timeCreated: 1448037102
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -55,9 +55,9 @@ TextureImporter:
     - name: Knight attack_0
       rect:
         serializedVersion: 2
-        x: 35
+        x: 14
         y: 5
-        width: 110
+        width: 111
         height: 135
       alignment: 0
       pivot: {x: .5, y: .5}
@@ -65,9 +65,9 @@ TextureImporter:
     - name: Knight attack_1
       rect:
         serializedVersion: 2
-        x: 196
+        x: 174
         y: 5
-        width: 110
+        width: 111
         height: 135
       alignment: 0
       pivot: {x: .5, y: .5}
@@ -75,9 +75,9 @@ TextureImporter:
     - name: Knight attack_2
       rect:
         serializedVersion: 2
-        x: 355
-        y: 5
-        width: 110
+        x: 334
+        y: 4
+        width: 111
         height: 135
       alignment: 0
       pivot: {x: .5, y: .5}
