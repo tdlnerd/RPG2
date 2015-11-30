@@ -1,0 +1,28 @@
+use_random_seed 64
+in_thread do
+  loop do
+    use_synth :tri
+    play choose(chord(:D1, :m6)), release: [0.2,0.3,0.4].choose;
+    sleep 0.5;
+end
+end
+in_thread do
+  loop do
+    use_synth :bnoise
+      play 40, amp: 0.2, release: 0.5
+      sleep [0.5,1,2].choose;
+    end
+end
+in_thread do
+  loop do
+  use_synth :prophet
+ play choose(chord(:F4, :m9)), release: [0.25,5,1].choose, amp: 0.2;
+sleep 1;
+ play choose(chord(:E4, :m9)), release: [0.25,5,1].choose, amp: 0.2;
+sleep 1;
+ play choose(chord(:D4, :m9)), release: [0.25,5,1].choose, amp: 0.2;
+sleep 1;
+end
+end
+
+    

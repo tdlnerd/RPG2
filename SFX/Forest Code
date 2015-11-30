@@ -1,0 +1,28 @@
+use_random_seed 22
+in_thread do
+  loop do
+    use_synth :tri
+    play choose(chord(:C2, :m9)), release: [0.1,0.2,0.3].choose;
+    sleep 0.2;
+end
+end
+in_thread do
+  loop do
+    use_synth :bnoise
+      play 20, amp: 0.2, release: 0.1
+      sleep [0.1,0.2,0.40].choose
+    end
+end
+in_thread do
+  loop do
+  use_synth :pretty_bell
+ play choose(chord(:C5, :minor)), release: [2,4,6].choose, amp: 0.2;
+sleep 4;
+end
+end
+  loop do
+  use_synth :sine
+ play choose(chord(:C4, :minor)), release: [0.2,0.4,0.8].choose;
+sleep 0.8;
+end
+    

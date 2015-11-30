@@ -27,7 +27,7 @@ TextureImporter:
   textureFormat: -1
   maxTextureSize: 32
   textureSettings:
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapMode: 1
@@ -50,3 +50,4 @@ TextureImporter:
   spritePackingTag: 
   userData: 
   assetBundleName: 
+  assetBundleVariant: 

@@ -4,6 +4,7 @@ var BombCounter : UI.Text;
 var Bomb : GameObject;
 var BombCount : int;
 var Anim : Animator;
+var Sword : Collider2D;
 function Update () {
 	if (Input.GetKeyDown("x")) {
 		if (SwordMenu.isOn == true) {
@@ -22,6 +23,8 @@ function Update () {
 
 function Attack() {
 Anim.SetBool("Sword", true);
+Sword.enabled = true;
 yield WaitForSeconds(0.5);
 Anim.SetBool("Sword", false);
+Sword.enabled = false;
 }

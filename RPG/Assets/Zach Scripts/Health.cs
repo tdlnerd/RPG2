@@ -4,29 +4,33 @@ using System.Collections;
 public class Health : MonoBehaviour {
 	public float max_Health = 100f;
 	public float cur_Health = 0f;
-	public GameObject healthBar;
-	
+	public float MeleeResistence = 0.5f;
+	public float FireResistence = 0.5f;
+	public TextMesh  HealthBar;
+	public SpriteRenderer SR;
+	public GameObject coin;
 	// Use this for initialization
 	void Start () {
 		cur_Health = max_Health;
-		InvokeRepeating ("decreasehealth", 1f, 1f);
 		
 	}
 	
-	// Update is called once per frame
-	void Update () {
-		
-	}
+
 	
-	void decreasehealth() {
-		cur_Health -= 2f;
-		float calc_Health = cur_Health / max_Health; // if cur 80 / 100 - 0.8f
-		SetHealthBar (calc_Health);
+
+
+	public void OnTriggerEnter2D  (Collider2D hit) {
+		if (hit.gameObject.tag == "Sword") {
+			cur_Health -= max_Health * MeleeResistence;
+		}
 	}
-	
-	public void SetHealthBar(float myHealth) {
-		//myHealth value 0-1 , 
-		healthBar.transform.localScale = new Vector3 (myHealth, healthBar.transform.localScale.y, healthBar.transform.localScale.z);
+
+	public void Update () {
+			if (cur_Health < 1) {
+			 GameObject prefab = (GameObject) Instantiate(coin, transform.position, transform.rotation);
+			Destroy(gameObject);
+		}
 	}
-	
+
 }
+
