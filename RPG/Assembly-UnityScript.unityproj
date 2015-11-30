@@ -67,6 +67,7 @@
      <Compile Include="Assets\Engine Scripts\Player2DControls.js" />
      <Compile Include="Assets\Engine Scripts\charactermanager.js" />
      <Compile Include="Assets\Explode1.js" />
+     <Compile Include="Assets\EyeBushAI.js" />
      <Compile Include="Assets\Hole.js" />
      <Compile Include="Assets\Ignorebomb.js" />
      <Compile Include="Assets\ItemUse.js" />
