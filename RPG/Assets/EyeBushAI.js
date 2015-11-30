@@ -2,6 +2,7 @@
 var MaxRange : float;
 var On = false;
 var Player : GameObject;
+var FB : GameObject;
 function Start () {
 Pos();
 }
@@ -9,6 +10,8 @@ Pos();
 function Update () {
 var Distance = transform.position.x - Player.transform.position.x;
 Debug.Log(Distance);
+	if (Mathf.Abs(Distance < 5) {
+	}
 	if (On == false) {
 	Pos();
 	}
