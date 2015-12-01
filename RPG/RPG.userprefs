@@ -1,20 +1,13 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Zach Scripts/Health.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Overworld Scrips/OverheadMovement.js">
     <Files>
+      <File FileName="Assets/Overworld Scrips/OverheadMovement.js" Line="8" Column="85" />
       <File FileName="Assets/EyeBushAI.js" Line="1" Column="1" />
       <File FileName="Assets/KnightAnimationControl.js" Line="1" Column="1" />
       <File FileName="Assets/Value.js" Line="1" Column="1" />
-      <File FileName="Assets/ItemUse.js" Line="30" Column="2" />
+      <File FileName="Assets/ItemUse.js" Line="1" Column="1" />
       <File FileName="Assets/Standard Assets/Environment/Water/Water/Scripts/Water.cs" Line="1" Column="1" />
-      <File FileName="Assets/LevelManager.js" Line="1" Column="1" />
-      <File FileName="Assets/Engine Scripts/Message.js" Line="23" Column="18" />
-      <File FileName="Assets/Hole.js" Line="1" Column="1" />
-      <File FileName="Assets/Engine Scripts/EnemyDamage.js" Line="1" Column="1" />
-      <File FileName="Assets/Zach Scripts/Health.cs" Line="35" Column="2" />
-      <File FileName="Assets/CoinCollection.js" Line="10" Column="3" />
-      <File FileName="Assets/Cutscene1.js" Line="42" Column="30" />
-      <File FileName="Assets/ShopKeeper.js" Line="23" Column="43" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

@@ -5,7 +5,7 @@ var velocity: float;
 var Anim : Animator;
  function Update () 
  {
- velocity = ((transform.position.x - previous.x)) / Time.deltaTime;
+ velocity = ((transform.position.x - previous.x) +(transform.position.y - previous.y)) / Time.deltaTime;
  Anim.SetFloat("Speed", Mathf.Abs(velocity));
 AdjustTop();
  
