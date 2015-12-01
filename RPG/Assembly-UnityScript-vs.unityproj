@@ -50,6 +50,7 @@
      <Compile Include="Assets\Bomb.js" />
      <Compile Include="Assets\Bombbox.js" />
      <Compile Include="Assets\CanExplode.js" />
+     <Compile Include="Assets\ChangeAudio.js" />
      <Compile Include="Assets\ClearData.js" />
      <Compile Include="Assets\CoinCollection.js" />
      <Compile Include="Assets\Cutscene1.js" />

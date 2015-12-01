@@ -8,7 +8,9 @@ Adjust();
 Anim.SetFloat("Speed", Mathf.Abs(velocity));
 	if (Input.GetKeyDown("space")) {
 	Anim.SetBool("Grounded", false);
+		if (GetComponent.<AudioSource>().isPlaying == false) {
 	GetComponent.<AudioSource>().PlayOneShot(Jump);
+		}
 	}
 }
 
