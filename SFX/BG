@@ -1,0 +1,11 @@
+use_random_seed 64
+in_thread do
+  loop do
+    use_synth :tb303
+    play chord([:D4,:D5].choose, :major), release: [0.15,0.05,0.1].choose;
+    sleep 0.1;
+end
+end
+
+
+    
