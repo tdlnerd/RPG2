@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: ee027f421efc14f8ea6c9fff887404f8
-timeCreated: 1449073841
+timeCreated: 1449503060
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -29,9 +29,9 @@ TextureImporter:
   cubemapConvolutionExponent: 1.5
   seamlessCubemap: 0
   textureFormat: -1
-  maxTextureSize: 2048
+  maxTextureSize: 128
   textureSettings:
-    filterMode: -1
+    filterMode: 0
     aniso: 16
     mipBias: -1
     wrapMode: 1
@@ -54,12 +54,12 @@ TextureImporter:
     - name: Snake Boss_0
       rect:
         serializedVersion: 2
-        x: 84
+        x: 0
         y: 36
-        width: 300
+        width: 384
         height: 252
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Snake Boss_1
       rect:
@@ -67,7 +67,7 @@ TextureImporter:
         x: 384
         y: 36
         width: 384
-        height: 252
+        height: 253
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}

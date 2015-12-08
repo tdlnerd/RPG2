@@ -2,16 +2,18 @@
 using System.Collections;
 
 public class Health : MonoBehaviour {
-	public float max_Health = 100f;
-	public float cur_Health = 0f;
+	public float max_Health;
+	public float cur_Health;
 	public float MeleeResistence = 0.5f;
 	public float FireResistence = 0.5f;
 	public TextMesh  HealthBar;
 	public SpriteRenderer SR;
 	public GameObject coin;
+	public Color Col;
 	// Use this for initialization
 	void Start () {
 		cur_Health = max_Health;
+		Col = GetComponent<SpriteRenderer> ().color;
 		
 	}
 	
@@ -22,8 +24,13 @@ public class Health : MonoBehaviour {
 	public void OnTriggerEnter2D  (Collider2D hit) {
 		if (hit.gameObject.tag == "Sword") {
 			cur_Health -= max_Health * MeleeResistence;
+			Damage();
 		}
-	}
+			if (hit.gameObject.tag == "Ex") {
+				cur_Health -= max_Health * FireResistence;
+			Damage();
+			}
+		}
 
 	public void Update () {
 			if (cur_Health < 1) {
@@ -31,6 +38,13 @@ public class Health : MonoBehaviour {
 			Destroy(gameObject);
 		}
 	}
+	public IEnumerator Damage() {
+		GetComponent<SpriteRenderer>().color = Color.red;
+		yield return new WaitForSeconds (0.5f);
+		GetComponent<SpriteRenderer>().color = Col;
+	}
 
 }
+
+
 

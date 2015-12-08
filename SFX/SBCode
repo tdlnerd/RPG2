@@ -1,0 +1,28 @@
+use_random_seed 74
+in_thread do
+  loop do
+    use_synth :tri
+    play choose(chord(:D1, :diminished)), release: [0.05,0.1,0.2].choose;
+    sleep 0.2;
+end
+end
+in_thread do
+  loop do
+    use_synth :bnoise
+      play 40, amp: 0.2, release: 0.5
+      sleep [0.25,0.5,1].choose;
+    end
+end
+in_thread do
+  loop do
+  use_synth :prophet
+ play choose(chord(:F4, :diminished)), release: [0.25,1,0.5].choose, amp: 0.2;
+sleep 0.5;
+ play choose(chord(:E4, :diminished)), release: [0.25,1,0.5].choose, amp: 0.2;
+sleep 0.5;
+ play choose(chord(:D4, :diminished)), release: [2,1,0.5].choose, amp: 0.2;
+sleep 1;
+end
+end
+
+    
