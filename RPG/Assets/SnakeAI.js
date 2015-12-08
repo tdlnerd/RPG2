@@ -3,6 +3,8 @@ var Player : GameObject;
 var Dis : float;
 var AttackCol : Collider;
 var MoveSFX : AudioClip;
+var AttackSFX : AudioClip;
+var BiteSFX : AudioClip;
 var Ack = false;
 var Moving = false;
 var ACol : Collider2D;
@@ -15,7 +17,7 @@ function Update () {
 	if (Dis < 7.5) {
 	var Choice = Random.Range(0,2);
 	Debug.Log("SNAKE IS GOING TO " + Choice);
-	if (Choice == 0 && Moving == false && transform.position.z < 1) {
+	if (Choice == 0 && Moving == false && transform.position.z < 1 && Ack == false) {
 	Attack();
 	}
 	if (Choice == 1 && Ack == false) {
@@ -52,6 +54,7 @@ if (transform.position.z > 5) {
 	return;
 	}
 	GetComponent.<AudioSource>().Stop();
+	GetComponent.<AudioSource>().volume = 0.15;
 	GetComponent.<AudioSource>().clip = MoveSFX;
 	GetComponent.<AudioSource>().Play();
 }
@@ -74,6 +77,7 @@ if (transform.position.z < 1) {
 	return;
 	}
 	GetComponent.<AudioSource>().Stop();
+	GetComponent.<AudioSource>().volume = 0.15;
 	GetComponent.<AudioSource>().clip = MoveSFX;
 	GetComponent.<AudioSource>().Play();
 	
@@ -81,12 +85,24 @@ if (transform.position.z < 1) {
 
 function Attack () {
 Ack = true;
-yield WaitForSeconds (0.5);
-ACol.enabled = true;
+GetComponent.<AudioSource>().Stop();
+	GetComponent.<AudioSource>().volume = 1;
+	GetComponent.<AudioSource>().clip = AttackSFX;
+	GetComponent.<AudioSource>().Play();
+yield WaitForSeconds (Random.Range(0.5,2));
+Bite();
 Anim.SetBool("Attack", true);
 yield WaitForSeconds (0.5);
+GetComponent.<AudioSource>().Stop();
 Anim.SetBool("Attack", false);
 ACol.enabled = false;
 Ack = false;
 }
-	
+
+function Bite () {
+yield WaitForSeconds (0.4);
+GetComponent.<AudioSource>().Stop();
+GetComponent.<AudioSource>().clip = BiteSFX;
+GetComponent.<AudioSource>().Play();
+ACol.enabled = true;
+}
