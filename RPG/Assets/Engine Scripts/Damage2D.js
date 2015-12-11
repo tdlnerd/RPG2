@@ -4,3 +4,13 @@ function OnCollisionEnter2D (hit: Collision2D) {
 	damage.value -= hit.gameObject.GetComponent(EnemyDamage).Dam;
 }
 }
+
+
+function Update () {
+if (damage.value < 1) {
+Application.LoadLevel("GO");
+var Can = GameObject.Find("Canvas");
+Destroy(Can);
+Destroy(gameObject);
+}
+}

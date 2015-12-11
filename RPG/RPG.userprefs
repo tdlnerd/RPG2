@@ -1,13 +1,15 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Door.js">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Engine Scripts/Damage2D.js">
     <Files>
-      <File FileName="Assets/ItemUse.js" Line="24" Column="30" />
-      <File FileName="Assets/SnakeAI.js" Line="31" Column="29" />
+      <File FileName="Assets/ActivatePlatform.js" Line="1" Column="1" />
+      <File FileName="Assets/ItemUse.js" Line="1" Column="1" />
+      <File FileName="Assets/SnakeAI.js" Line="1" Column="1" />
       <File FileName="Assets/ButtonClick.js" Line="1" Column="1" />
-      <File FileName="Assets/Engine Scripts/Damage2D.js" Line="1" Column="1" />
-      <File FileName="Assets/Zach Scripts/Health.cs" Line="1" Column="1" />
-      <File FileName="Assets/Door.js" Line="14" Column="33" />
+      <File FileName="Assets/Engine Scripts/Damage2D.js" Line="13" Column="14" />
+      <File FileName="Assets/Zach Scripts/Health.cs" Line="37" Column="96" />
+      <File FileName="Assets/Door.js" Line="8" Column="3" />
+      <File FileName="Assets/Zach Scripts/TreasureChestOpen.js" Line="20" Column="3" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

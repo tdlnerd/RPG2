@@ -1,6 +1,12 @@
 ﻿var Target : Vector3;
 var RequireKey = false;
 var Unlock = true;
+var KeyHole : GameObject;
+function Start () {
+	if (RequireKey == true) {
+	KeyHole.SetActive(true);
+	}
+}
 function OnTriggerStay2D (hit : Collider2D) {
 if (hit.gameObject.tag == "Player" && Input.GetKeyDown("up")) {
 	if (RequireKey == true && Unlock == false) {

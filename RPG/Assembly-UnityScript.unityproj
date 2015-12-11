@@ -91,6 +91,7 @@
      <Compile Include="Assets\TriggerAudio.js" />
      <Compile Include="Assets\TriggerOpen.js" />
      <Compile Include="Assets\Value.js" />
+     <Compile Include="Assets\Zach Scripts\TreasureChestOpen.js" />
      <None Include="Assets\Standard Assets\Effects\GlassRefraction\Shaders\GlassStainedBumpDistort.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlendOneOne.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\NoiseEffectShaderRGB.shader" />
