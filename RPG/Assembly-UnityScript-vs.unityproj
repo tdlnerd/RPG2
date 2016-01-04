@@ -53,6 +53,7 @@
      <Compile Include="Assets\ButtonClick.js" />
      <Compile Include="Assets\CS1.js" />
      <Compile Include="Assets\CS1Audio.js" />
+     <Compile Include="Assets\CameraPos.js" />
      <Compile Include="Assets\CanExplode.js" />
      <Compile Include="Assets\ChangeAudio.js" />
      <Compile Include="Assets\ClearData.js" />
