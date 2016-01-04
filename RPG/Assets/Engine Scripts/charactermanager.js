@@ -11,4 +11,7 @@ function Update () {
 	else {
 	Player.SetActive(true);
 	}
+	if (Application.loadedLevelName == "Title Screen") {
+	Destroy(gameObject);
+	}
 }

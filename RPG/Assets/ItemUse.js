@@ -7,6 +7,11 @@ var BombCount : int;
 var KeyCount : int;
 var Anim : Animator;
 var Sword : Collider2D;
+
+function Start () {
+BombCount = PlayerPrefs.GetFloat("Bomb");
+KeyCount = PlayerPrefs.GetFloat("Key");
+}
 function Update () {
 	if (Input.GetKeyDown("x")) {
 		if (SwordMenu.isOn == true) {
@@ -20,8 +25,6 @@ function Update () {
 	if (BombCount > 15) {
 	BombCount = 15;
 	}
-	BombCounter.text = "x " + BombCount.ToString();
-	KeyCounter.text = "x " + KeyCount.ToString();
 }
 
 function Attack() {

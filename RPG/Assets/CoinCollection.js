@@ -1,6 +1,10 @@
-﻿var CoinCounter : UI.Text;
-var Cash : float;
+﻿
+var Cash : int;
 var SFX : AudioClip;
+var Save : SaveSystem;
+function Start () {
+Cash = PlayerPrefs.GetInt("Cash");
+}
 function OnTriggerEnter2D (hit : Collider2D) {
 	if (hit.gameObject.tag == "coin") {
 	var vscript = hit.GetComponent(Value);
@@ -10,6 +14,3 @@ function OnTriggerEnter2D (hit : Collider2D) {
 	}
 }
 
-function Update () {
-CoinCounter.text = "$" + Cash.ToString();
-}

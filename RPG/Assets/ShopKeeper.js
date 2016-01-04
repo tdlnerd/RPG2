@@ -3,7 +3,6 @@ var MessageBox : UI.Text;
 var NPC : String;
 var line = 0;
 var Disp = false;
-var Speech : AudioClip[];
 var Anim : Animator;
 
 function OnTriggerStay2D () {
@@ -24,8 +23,6 @@ MessageBox.text = NPC + ": " + Text[line];
 if (Input.GetKeyDown("down") && line < Text.Length) {
 	Debug.Log("Correct Code");
 	line = line + 1;
-		GetComponent.<AudioSource>().Stop();
-		GetComponent.<AudioSource>().PlayOneShot(Speech[line]);
 	}
 	if (Input.GetKeyDown("down") && line == Text.Length) {
 	line = 0;

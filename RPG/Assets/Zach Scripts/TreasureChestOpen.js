@@ -1,11 +1,14 @@
 ﻿var chestIsOpen = false;
 var hit : RaycastHit;
 var Item : GameObject;
+var Open : Sprite;
+var Complete = false;
 function Update () {
 print(chestIsOpen);
-if (chestIsOpen == true && Input.GetKeyDown("up")) {
+if (chestIsOpen == true && Input.GetKeyDown("up") && Complete == false) {
 var prefab = Instantiate(Item, transform.position, transform.rotation);
-Destroy(gameObject);
+GetComponent.<Renderer>().sprite = Open;
+Complete = true;
 }
 }
 
