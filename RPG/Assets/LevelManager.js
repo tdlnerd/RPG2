@@ -6,6 +6,9 @@ var Music : AudioClip;
 var DisCamera = false;
 var RequireDefeat = false;
 var Exit : GameObject;
+var Timed = false;
+var TimedLightingNight : Color;
+var NightSky : Material;
 
 function Start () {
 yield WaitForSeconds (0.1);
@@ -14,6 +17,9 @@ Cam.GetComponent.<AudioSource>().clip = Music;
 Cam.GetComponent.<AudioSource>().Play();
 	if (DisCamera == true) {
 	Cam.GetComponent.<Camera>().enabled = false;
+	}
+	if (System.DateTime.Now.Hour > 14 && Timed == true) {
+	Night();
 	}
 }
 
@@ -31,3 +37,11 @@ Knight = GameObject.Find("Knight");
 	Exit.SetActive(true);
 	}
 }
+
+function Night () {
+var arr : Renderer[] = FindObjectsOfType(Renderer) as Renderer[];
+		for (var doit : Renderer in arr) {
+			doit.GetComponent(Renderer).material.color = TimedLightingNight;
+GetComponent.<RenderSettings>().skybox = NightSky;
+     }
+     }

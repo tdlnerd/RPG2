@@ -1,18 +1,15 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Rat.js">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/LevelManager.js">
     <Files>
-      <File FileName="Assets/Engine Scripts/EnemyDamage.js" Line="1" Column="1" />
-      <File FileName="Assets/Item.js" Line="55" Column="12" />
-      <File FileName="Assets/Confirm.js" Line="1" Column="1" />
-      <File FileName="Assets/CoinCollection.js" Line="1" Column="1" />
-      <File FileName="Assets/Engine Scripts/Damage2D.js" Line="4" Column="63" />
-      <File FileName="Assets/LevelManager.js" Line="32" Column="3" />
-      <File FileName="Assets/Engine Scripts/GenLevelLoad.js" Line="4" Column="37" />
-      <File FileName="Assets/QuitMapScreen.js" Line="11" Column="1" />
-      <File FileName="Assets/Engine Scripts/LoadRandomLEnemy.js" Line="8" Column="1" />
-      <File FileName="Assets/Engine Scripts/LoadPredefinedLevelOverWorld.js" Line="7" Column="35" />
+      <File FileName="Assets/LevelManager.js" Line="45" Column="51" />
+      <File FileName="Assets/Engine Scripts/GenLevelLoad.js" Line="1" Column="1" />
+      <File FileName="Assets/QuitMapScreen.js" Line="1" Column="1" />
+      <File FileName="Assets/Engine Scripts/LoadRandomLEnemy.js" Line="1" Column="1" />
+      <File FileName="Assets/Engine Scripts/LoadPredefinedLevelOverWorld.js" Line="1" Column="1" />
       <File FileName="Assets/Rat.js" Line="1" Column="1" />
+      <File FileName="Assets/Engine Scripts/House.js" Line="20" Column="33" />
+      <File FileName="Assets/CS1.js" Line="29" Column="7" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
