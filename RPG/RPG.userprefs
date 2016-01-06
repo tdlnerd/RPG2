@@ -1,15 +1,15 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/LevelManager.js">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Engine Scripts/House.js">
     <Files>
-      <File FileName="Assets/LevelManager.js" Line="45" Column="51" />
+      <File FileName="Assets/LevelManager.js" Line="21" Column="50" />
       <File FileName="Assets/Engine Scripts/GenLevelLoad.js" Line="1" Column="1" />
       <File FileName="Assets/QuitMapScreen.js" Line="1" Column="1" />
       <File FileName="Assets/Engine Scripts/LoadRandomLEnemy.js" Line="1" Column="1" />
       <File FileName="Assets/Engine Scripts/LoadPredefinedLevelOverWorld.js" Line="1" Column="1" />
       <File FileName="Assets/Rat.js" Line="1" Column="1" />
-      <File FileName="Assets/Engine Scripts/House.js" Line="20" Column="33" />
-      <File FileName="Assets/CS1.js" Line="29" Column="7" />
+      <File FileName="Assets/Engine Scripts/House.js" Line="10" Column="41" />
+      <File FileName="Assets/CS1.js" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

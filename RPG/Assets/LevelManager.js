@@ -18,7 +18,10 @@ Cam.GetComponent.<AudioSource>().Play();
 	if (DisCamera == true) {
 	Cam.GetComponent.<Camera>().enabled = false;
 	}
-	if (System.DateTime.Now.Hour > 14 && Timed == true) {
+	if (System.DateTime.Now.Hour > 17 && Timed == true) {
+	Night();
+	}
+	if (System.DateTime.Now.Hour < 6 && Timed == true) {
 	Night();
 	}
 }
