@@ -89,6 +89,7 @@
      <Compile Include="Assets\Key0.js" />
      <Compile Include="Assets\KnightAnimationControl.js" />
      <Compile Include="Assets\LevelManager.js" />
+     <Compile Include="Assets\NPCAI.js" />
      <Compile Include="Assets\Overworld Scrips\OverheadMovement.js" />
      <Compile Include="Assets\Platform.js" />
      <Compile Include="Assets\Prophecy.js" />
