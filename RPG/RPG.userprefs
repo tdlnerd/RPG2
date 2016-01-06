@@ -1,11 +1,11 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/NPCAI.js">
     <Files>
       <File FileName="Assets/LevelManager.js" Line="1" Column="1" />
-      <File FileName="Assets/Engine Scripts/House.js" Line="27" Column="80" />
-      <File FileName="Assets/NPCAI.js" Line="34" Column="7" />
-      <File FileName="Assets/RatTop.js" Line="12" Column="1" />
+      <File FileName="Assets/Engine Scripts/House.js" Line="1" Column="1" />
+      <File FileName="Assets/NPCAI.js" Line="17" Column="3" />
+      <File FileName="Assets/RatTop.js" Line="1" Column="1" />
       <File FileName="Assets/SnakeAI.js" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
