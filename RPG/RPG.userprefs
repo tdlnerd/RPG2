@@ -1,15 +1,17 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/UnlockFence.js">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Engine Scripts/Message.js">
     <Files>
+      <File FileName="Assets/LightOW.js" Line="24" Column="37" />
+      <File FileName="Assets/Engine Scripts/Message.js" Line="19" Column="2" />
+      <File FileName="Assets/NPCAI.js" Line="1" Column="1" />
+      <File FileName="Assets/LevelManager.js" Line="1" Column="1" />
+      <File FileName="Assets/Engine Scripts/House.js" Line="1" Column="1" />
       <File FileName="Assets/RatTop.js" Line="1" Column="1" />
       <File FileName="Assets/SnakeAI.js" Line="1" Column="1" />
       <File FileName="Assets/LightTiming.js" Line="1" Column="1" />
-      <File FileName="Assets/LightOW.js" Line="1" Column="1" />
-      <File FileName="Assets/ItemAq.js" Line="7" Column="1" />
-      <File FileName="Assets/Engine Scripts/Message.js" Line="36" Column="1" />
-      <File FileName="Assets/SetBoolCollision.js" Line="2" Column="1" />
-      <File FileName="Assets/UnlockFence.js" Line="5" Column="14" />
+      <File FileName="Assets/UnlockFence.js" Line="19" Column="44" />
+      <File FileName="Assets/SkeletonAI.js" Line="15" Column="4" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
