@@ -79,11 +79,11 @@
      <Compile Include="Assets\EyeBushAI.js" />
      <Compile Include="Assets\FinalBossScene.js" />
      <Compile Include="Assets\FireballAI.js" />
-     <Compile Include="Assets\GraveyardKey.js" />
      <Compile Include="Assets\HeightFix.js" />
      <Compile Include="Assets\Hole.js" />
      <Compile Include="Assets\Ignorebomb.js" />
      <Compile Include="Assets\Item.js" />
+     <Compile Include="Assets\ItemAq.js" />
      <Compile Include="Assets\ItemUse.js" />
      <Compile Include="Assets\JumpAnim.js" />
      <Compile Include="Assets\Key0.js" />
@@ -100,6 +100,7 @@
      <Compile Include="Assets\Rat.js" />
      <Compile Include="Assets\RatTop.js" />
      <Compile Include="Assets\SaveSystem.js" />
+     <Compile Include="Assets\SetBoolCollision.js" />
      <Compile Include="Assets\ShopKeeper.js" />
      <Compile Include="Assets\Sign.js" />
      <Compile Include="Assets\SkeletonAI.js" />
@@ -112,6 +113,7 @@
      <Compile Include="Assets\TriggerOpen.js" />
      <Compile Include="Assets\Tunnel.js" />
      <Compile Include="Assets\Tutorial.js" />
+     <Compile Include="Assets\UnlockFence.js" />
      <Compile Include="Assets\Value.js" />
      <Compile Include="Assets\Zach Scripts\TreasureChestOpen.js" />
      <None Include="Assets\Standard Assets\Effects\GlassRefraction\Shaders\GlassStainedBumpDistort.shader" />
