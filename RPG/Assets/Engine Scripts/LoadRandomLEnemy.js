@@ -5,6 +5,8 @@ function OnCollisionEnter (hit : Collision) {
 Anim = GameObject.Find("Main Camera").GetComponent(Animator);
 var choice = Random.Range(0,L2L.Length);
 if (hit.gameObject.tag == "OWPlayer") {
+PlayerPrefs.SetFloat("MapScreenX", hit.transform.position.x);
+PlayerPrefs.SetFloat("MapScreenY", hit.transform.position.y);
 Anim.SetBool("Trans", true);
 var Cam = GameObject.Find("Main Camera");
 Cam.GetComponent.<AudioSource>().Stop();
