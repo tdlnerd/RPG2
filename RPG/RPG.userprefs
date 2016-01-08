@@ -1,10 +1,11 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Item.js">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Zach Scripts/HealthPotion.js">
     <Files>
-      <File FileName="Assets/Item.js" Line="55" Column="12" />
-      <File FileName="Assets/Confirm.js" Line="10" Column="2" />
+      <File FileName="Assets/Item.js" Line="1" Column="1" />
+      <File FileName="Assets/Confirm.js" Line="1" Column="1" />
       <File FileName="Assets/CoinCollection.js" Line="1" Column="1" />
+      <File FileName="Assets/Zach Scripts/HealthPotion.js" Line="2" Column="40" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
