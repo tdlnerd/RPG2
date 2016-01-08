@@ -5,14 +5,18 @@ var line = 0;
 var Disp = false;
 var Speech : AudioClip[];
 var Audio = true;
-function OnTriggerStay2D () {
+function OnTriggerStay2D (hit : Collider2D) {
+	if (hit.gameObject.tag == "Player") {
 Disp = true;
 }
+}
 
-function OnTriggerExit2D () {
+function OnTriggerExit2D (hit : Collider2D) {
+if (hit.gameObject.tag == "Player") {
 Disp = false;
 MessageBox.text = " ";
 line = 0;
+}
 }
 
 function Update () {

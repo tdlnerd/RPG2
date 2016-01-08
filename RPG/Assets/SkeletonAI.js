@@ -10,6 +10,10 @@ var distreq : float;
 	target = GameObject.FindGameObjectWithTag("Player").transform;
 	}
 	function Update () {
+		if (target == null) {
+		target = GameObject.FindGameObjectWithTag("Player").transform;
+		}
+		
 		dist = Vector2.Distance(target.position, transform.position);
 		var step = speed * Time.deltaTime;
 			if (transform.position.x > MinBound.x && transform.position.x < MaxBound.x && dist < distreq) {

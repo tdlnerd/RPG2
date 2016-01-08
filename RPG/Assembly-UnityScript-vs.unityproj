@@ -53,6 +53,7 @@
      <Compile Include="Assets\ButtonClick.js" />
      <Compile Include="Assets\CS1.js" />
      <Compile Include="Assets\CS1Audio.js" />
+     <Compile Include="Assets\CameraPos.js" />
      <Compile Include="Assets\CanExplode.js" />
      <Compile Include="Assets\ChangeAudio.js" />
      <Compile Include="Assets\ClearData.js" />
@@ -82,11 +83,15 @@
      <Compile Include="Assets\Hole.js" />
      <Compile Include="Assets\Ignorebomb.js" />
      <Compile Include="Assets\Item.js" />
+     <Compile Include="Assets\ItemAq.js" />
      <Compile Include="Assets\ItemUse.js" />
      <Compile Include="Assets\JumpAnim.js" />
      <Compile Include="Assets\Key0.js" />
      <Compile Include="Assets\KnightAnimationControl.js" />
      <Compile Include="Assets\LevelManager.js" />
+     <Compile Include="Assets\LightOW.js" />
+     <Compile Include="Assets\LightTiming.js" />
+     <Compile Include="Assets\NPCAI.js" />
      <Compile Include="Assets\Overworld Scrips\OverheadMovement.js" />
      <Compile Include="Assets\Platform.js" />
      <Compile Include="Assets\Prophecy.js" />
@@ -95,6 +100,7 @@
      <Compile Include="Assets\Rat.js" />
      <Compile Include="Assets\RatTop.js" />
      <Compile Include="Assets\SaveSystem.js" />
+     <Compile Include="Assets\SetBoolCollision.js" />
      <Compile Include="Assets\ShopKeeper.js" />
      <Compile Include="Assets\Sign.js" />
      <Compile Include="Assets\SkeletonAI.js" />
@@ -108,6 +114,7 @@
      <Compile Include="Assets\TriggerOpen.js" />
      <Compile Include="Assets\Tunnel.js" />
      <Compile Include="Assets\Tutorial.js" />
+     <Compile Include="Assets\UnlockFence.js" />
      <Compile Include="Assets\Value.js" />
      <Compile Include="Assets\Zach Scripts\TreasureChestOpen.js" />
      <None Include="Assets\Standard Assets\Effects\GlassRefraction\Shaders\GlassStainedBumpDistort.shader" />
