@@ -3,6 +3,8 @@ var PlayerSprite : GameObject;
 var Lighting : Color32;
 var Cam : GameObject;
 var Music : AudioClip;
+var TimedMusic = false;
+var NightMusic : AudioClip;
 var DisCamera = false;
 var RequireDefeat = false;
 var Exit : GameObject;
@@ -49,6 +51,10 @@ Knight = GameObject.Find("Knight");
 }
 
 function Night () {
+	if (TimedMusic == true) {
+	Cam.GetComponent.<AudioSource>().clip = NightMusic;
+	Cam.GetComponent.<AudioSource>().Play();
+}
 Directional.intensity /= 2;
 var arr : Renderer[] = FindObjectsOfType(Renderer) as Renderer[];
 		for (var doit : Renderer in arr) {
