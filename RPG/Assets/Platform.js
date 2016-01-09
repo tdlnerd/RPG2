@@ -17,3 +17,15 @@ function MoveObject (thisTransform : Transform, startPos : Vector3, endPos : Vec
         yield;
     }
 }
+
+function OnTriggerStay2D (hit: Collider2D) {
+if (hit.gameObject.tag == "Player") {
+hit.transform.parent = gameObject.transform;
+}
+}
+
+function OnTriggerExit2D (hit: Collider2D) {
+if (hit.gameObject.tag == "Player") {
+transform.DetachChildren();
+}
+}
