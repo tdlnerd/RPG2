@@ -17,7 +17,7 @@ function Update () {
 		if (SwordMenu.isOn == true) {
 		Attack();
 		}
-		if (BombMenu.isOn == true && BombCount > 0) {
+		if (BombMenu.isOn == true && BombCount > 0 && GameObject.FindGameObjectsWithTag("Bomb").Length < 2) {
 		var b = Instantiate(Bomb, transform.position, transform.rotation);
 		BombCount -= 1;
 		}
