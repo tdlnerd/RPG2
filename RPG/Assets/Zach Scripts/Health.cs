@@ -26,7 +26,7 @@ public class Health : MonoBehaviour {
 			cur_Health -= max_Health * MeleeResistence;
 			Damage();
 		}
-			if (hit.gameObject.tag == "Ex") {
+			if (hit.gameObject.tag == "Explosion") {
 				cur_Health -= max_Health * FireResistence;
 			Damage();
 			}
