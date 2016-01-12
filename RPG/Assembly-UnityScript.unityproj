@@ -51,6 +51,7 @@
      <Compile Include="Assets\BatAI.js" />
      <Compile Include="Assets\Bomb.js" />
      <Compile Include="Assets\Bombbox.js" />
+     <Compile Include="Assets\Bottom.js" />
      <Compile Include="Assets\ButtonClick.js" />
      <Compile Include="Assets\CS1.js" />
      <Compile Include="Assets\CS1Audio.js" />
