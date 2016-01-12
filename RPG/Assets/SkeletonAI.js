@@ -6,9 +6,10 @@ var speed: float;
 var Pos : Vector3;
 var Anim : Animator;
 var distreq : float;
-var PosReset : GameObject;
+var PosReset : Transform;
 	function Start () {
 	target = GameObject.FindGameObjectWithTag("Player").transform;
+	PosReset = gameObject.transform;
 	}
 	function Update () {
 		if (target == null) {
@@ -16,21 +17,21 @@ var PosReset : GameObject;
 		}
 		
 		dist = Vector2.Distance(target.position, transform.position);
-		distTar = Vector2.Distance(PosReset.transform.position, transform.position);
+		distTar = Vector2.Distance(PosReset.position, transform.position);
 		var step = speed * Time.deltaTime;
 			if (transform.position.x > MinBound.x && transform.position.x < MaxBound.x && dist < distreq) {
 		transform.position = Vector3.MoveTowards(transform.position, target.position, step);
 		Anim.SetBool("WalkCycle", true);
 		}
 			if (transform.position.x < MinBound.x) {
-			transform.position = Vector3.MoveTowards(transform.position, target.position, step);
+			transform.position = Vector3.MoveTowards(transform.position, PosReset.position, step);
 			Anim.SetBool("WalkCycle", true);
 			}
 			if (transform.position.x > MaxBound.x) {
-			transform.position = Vector3.MoveTowards(transform.position, target.position, step);
+			transform.position = Vector3.MoveTowards(transform.position, PosReset.position, step);
 			Anim.SetBool("WalkCycle", true);
 			}
-			if (dist > distreq && distTar < 1) {
+			if (dist > distreq) {
 			Anim.SetBool("WalkCycle", false);
 			}
 		if (transform.position.x- target.position.x > 0) {
