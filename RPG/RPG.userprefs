@@ -1,8 +1,8 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/DestroyKnight.js">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/SkeletonAI.js">
     <Files>
-      <File FileName="Assets/ItemUse.js" Line="20" Column="101" />
+      <File FileName="Assets/SkeletonAI.js" Line="31" Column="36" />
       <File FileName="Assets/CanExplode.js" Line="1" Column="1" />
       <File FileName="Assets/Platform.js" Line="1" Column="1" />
       <File FileName="Assets/Engine Scripts/Message.js" Line="1" Column="1" />
