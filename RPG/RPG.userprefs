@@ -1,16 +1,16 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/ItemUse.js">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Timd.js">
     <Files>
       <File FileName="Assets/ItemUse.js" Line="16" Column="40" />
       <File FileName="Assets/DestroyKnight.js" Line="1" Column="1" />
       <File FileName="Assets/Cutscene1.js" Line="1" Column="1" />
       <File FileName="Assets/Engine Scripts/Damage2D.js" Line="1" Column="1" />
       <File FileName="Assets/Value.js" Line="1" Column="1" />
-      <File FileName="Assets/Timd.js" Line="1" Column="1" />
+      <File FileName="Assets/Timd.js" Line="6" Column="24" />
       <File FileName="Assets/Engine Scripts/GenLevelLoad.js" Line="1" Column="1" />
       <File FileName="Assets/Door.js" Line="1" Column="1" />
-      <File FileName="Assets/TownHall1Scene.js" Line="1" Column="1" />
+      <File FileName="Assets/TownHall1Scene.js" Line="14" Column="22" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
