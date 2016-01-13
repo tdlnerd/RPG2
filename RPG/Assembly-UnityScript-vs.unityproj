@@ -112,6 +112,7 @@
      <Compile Include="Assets\SnakeAI.js" />
      <Compile Include="Assets\SpawnSystem.js" />
      <Compile Include="Assets\StartGame.js" />
+     <Compile Include="Assets\Timd.js" />
      <Compile Include="Assets\TimedBG.js" />
      <Compile Include="Assets\TownHall1Scene.js" />
      <Compile Include="Assets\TriggerAudio.js" />
