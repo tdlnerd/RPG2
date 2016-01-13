@@ -13,6 +13,7 @@ BombCount = PlayerPrefs.GetFloat("Bomb");
 KeyCount = PlayerPrefs.GetFloat("Key");
 }
 function Update () {
+	KeyCounter.text = "KEY x " + KeyCount;
 	if (Input.GetKeyDown("x")) {
 		if (SwordMenu.isOn == true) {
 		Attack();
