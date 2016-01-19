@@ -26,11 +26,21 @@ public class Health : MonoBehaviour {
 			cur_Health -= max_Health * MeleeResistence;
 			Damage();
 		}
-			if (hit.gameObject.tag == "Ex") {
+			if (hit.gameObject.tag == "Explode") {
 				cur_Health -= max_Health * FireResistence;
 			Damage();
 			}
 		}
+	public void OnCollisionEnter2D  (Collision2D hit) {
+		if (hit.gameObject.tag == "Sword") {
+			cur_Health -= max_Health * MeleeResistence;
+			Damage();
+		}
+		if (hit.gameObject.tag == "Explode") {
+			cur_Health -= max_Health * FireResistence;
+			Damage();
+		}
+	}
 
 	public void Update () {
 			if (cur_Health < 1) {

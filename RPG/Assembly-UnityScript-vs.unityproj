@@ -47,9 +47,12 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\ActivatePlatform.js" />
+     <Compile Include="Assets\AppQuit.js" />
+     <Compile Include="Assets\ArrayKey.js" />
      <Compile Include="Assets\BatAI.js" />
      <Compile Include="Assets\Bomb.js" />
      <Compile Include="Assets\Bombbox.js" />
+     <Compile Include="Assets\Bottom.js" />
      <Compile Include="Assets\ButtonClick.js" />
      <Compile Include="Assets\CS1.js" />
      <Compile Include="Assets\CS1Audio.js" />
@@ -61,6 +64,7 @@
      <Compile Include="Assets\Confirm.js" />
      <Compile Include="Assets\Cutscene1.js" />
      <Compile Include="Assets\DarkKnight.js" />
+     <Compile Include="Assets\DestroyKnight.js" />
      <Compile Include="Assets\Door.js" />
      <Compile Include="Assets\Engine Scripts\CanvasManager.js" />
      <Compile Include="Assets\Engine Scripts\Check.js" />
@@ -109,6 +113,8 @@
      <Compile Include="Assets\SnakeAI.js" />
      <Compile Include="Assets\SpawnSystem.js" />
      <Compile Include="Assets\StartGame.js" />
+     <Compile Include="Assets\Timd.js" />
+     <Compile Include="Assets\TimedBG.js" />
      <Compile Include="Assets\TownHall1Scene.js" />
      <Compile Include="Assets\TriggerAudio.js" />
      <Compile Include="Assets\TriggerOpen.js" />

@@ -2,6 +2,9 @@
 var RequireKey = false;
 var Unlock = true;
 var KeyHole : GameObject;
+var Pos = true;
+var Level = false;
+var L2L : String;
 function Start () {
 	if (RequireKey == true) {
 	KeyHole.SetActive(true);
@@ -16,7 +19,11 @@ if (hit.gameObject.tag == "Player" && Input.GetKeyDown("up")) {
 		Unlock = true;
 	}
 	}
-if (Unlock == true) {
+if (Unlock == true && Pos == true) {
+hit.transform.position = Target;
+}
+if (Unlock == true && Level == true) {
+Application.LoadLevel(L2L);
 hit.transform.position = Target;
 }
 }

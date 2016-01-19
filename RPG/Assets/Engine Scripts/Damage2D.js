@@ -5,6 +5,12 @@ function OnCollisionEnter2D (hit: Collision2D) {
 }
 }
 
+function OnTriggerEnter2D (hit: Collider2D) {
+	if (hit.gameObject.tag == "Enemy") {
+	damage.value -= hit.gameObject.GetComponent(EnemyDamage).Dam;
+}
+}
+
 
 function Update () {
 if (damage.value < 1) {

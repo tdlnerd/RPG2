@@ -11,13 +11,16 @@ var Sword : Collider2D;
 function Start () {
 BombCount = PlayerPrefs.GetFloat("Bomb");
 KeyCount = PlayerPrefs.GetFloat("Key");
+BombMenu = GameObject.Find("Bomb").GetComponent(UI.Toggle);
+SwordMenu = GameObject.Find("Sword").GetComponent(UI.Toggle);
 }
 function Update () {
+	KeyCounter.text = "KEY x " + KeyCount;
 	if (Input.GetKeyDown("x")) {
 		if (SwordMenu.isOn == true) {
 		Attack();
 		}
-		if (BombMenu.isOn == true && BombCount > 0) {
+		if (BombMenu.isOn == true && BombCount > 0 && GameObject.FindGameObjectsWithTag("Bomb").Length < 2) {
 		var b = Instantiate(Bomb, transform.position, transform.rotation);
 		BombCount -= 1;
 		}
