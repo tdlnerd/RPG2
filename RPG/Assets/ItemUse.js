@@ -11,6 +11,8 @@ var Sword : Collider2D;
 function Start () {
 BombCount = PlayerPrefs.GetFloat("Bomb");
 KeyCount = PlayerPrefs.GetFloat("Key");
+BombMenu = GameObject.Find("Bomb").GetComponent(UI.Toggle);
+SwordMenu = GameObject.Find("Sword").GetComponent(UI.Toggle);
 }
 function Update () {
 	KeyCounter.text = "KEY x " + KeyCount;
