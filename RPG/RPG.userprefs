@@ -1,34 +1,8 @@
 ﻿<Properties>
-<<<<<<< HEAD
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/SkeletonAI1.js">
+  <MonoDevelop.Ide.Workspace />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Engine Scripts/GenLevelLoad.js">
     <Files>
-      <File FileName="Assets/SkeletonAI.js" Line="1" Column="1" />
-      <File FileName="Assets/SkeletonAI1.js" Line="17" Column="23" />
-=======
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-<<<<<<< HEAD
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Zach Scripts/HealthPotion.js">
-    <Files>
-      <File FileName="Assets/Item.js" Line="1" Column="1" />
-      <File FileName="Assets/Confirm.js" Line="1" Column="1" />
-      <File FileName="Assets/CoinCollection.js" Line="1" Column="1" />
-      <File FileName="Assets/Zach Scripts/HealthPotion.js" Line="2" Column="40" />
-=======
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/LevelManager.js">
-    <Files>
-      <File FileName="Assets/LightOW.js" Line="1" Column="1" />
-      <File FileName="Assets/Engine Scripts/Message.js" Line="1" Column="1" />
-      <File FileName="Assets/NPCAI.js" Line="1" Column="1" />
-      <File FileName="Assets/LevelManager.js" Line="56" Column="2" />
-      <File FileName="Assets/Engine Scripts/House.js" Line="1" Column="1" />
-      <File FileName="Assets/RatTop.js" Line="1" Column="1" />
-      <File FileName="Assets/SnakeAI.js" Line="1" Column="1" />
-      <File FileName="Assets/LightTiming.js" Line="1" Column="1" />
-      <File FileName="Assets/UnlockFence.js" Line="1" Column="1" />
-      <File FileName="Assets/SkeletonAI.js" Line="1" Column="1" />
->>>>>>> d5fd41f532b41c81d15b2775cc3b688d942b610c
->>>>>>> 2cf5e8f8e494278771ed18d9a427660fe4973d48
+      <File FileName="Assets/Engine Scripts/GenLevelLoad.js" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
