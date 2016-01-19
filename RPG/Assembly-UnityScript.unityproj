@@ -78,6 +78,7 @@
      <Compile Include="Assets\Engine Scripts\MapScreen.js" />
      <Compile Include="Assets\Engine Scripts\Message.js" />
      <Compile Include="Assets\Engine Scripts\Player2DControls.js" />
+     <Compile Include="Assets\Engine Scripts\Sailor.js" />
      <Compile Include="Assets\Engine Scripts\charactermanager.js" />
      <Compile Include="Assets\Explode1.js" />
      <Compile Include="Assets\EyeBushAI.js" />
