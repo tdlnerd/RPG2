@@ -151,7 +151,19 @@
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlurAndFlares.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlendForBloom.shader" />
  <Reference Include="Assembly-UnityScript">
+<<<<<<< HEAD
  <HintPath>/Users/tanner.luce/Desktop/RPGNew/RPG/Library/ScriptAssemblies/Assembly-UnityScript.dll</HintPath>
+=======
+<<<<<<< HEAD
+ <HintPath>/Users/john.day/Desktop/Project/Pikuseru/RPG/Library/ScriptAssemblies/Assembly-UnityScript.dll</HintPath>
+=======
+<<<<<<< HEAD
+ <HintPath>/Users/tanner.luce/Desktop/RPGNew/RPG/Library/ScriptAssemblies/Assembly-UnityScript.dll</HintPath>
+=======
+ <HintPath>/Users/tanner.luce/Desktop/11th Grade/Advanced Game Design/Pikuseru/RPG/Library/ScriptAssemblies/Assembly-UnityScript.dll</HintPath>
+>>>>>>> 864bca98dc27329c11ee65a33993ddd4c5659817
+>>>>>>> cb53bdacbc81f4a13fc2568b94c3fb78d78d7720
+>>>>>>> 6c61f46d7016f1363106c0614de7794aa110205a
  </Reference>
  <Reference Include="UnityEngine.Analytics">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
