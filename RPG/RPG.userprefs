@@ -1,11 +1,8 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Standard Assets/Utility/FollowTarget.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Engine Scripts/GenLevelLoad.js">
     <Files>
-      <File FileName="Assets/Engine Scripts/LoadPredefinedLevelOverWorld.js" Line="1" Column="1" />
-      <File FileName="Assets/Engine Scripts/Sailor.js" Line="1" Column="1" />
-      <File FileName="Assets/ArrayKey.js" Line="1" Column="1" />
-      <File FileName="Assets/SpawnSystem.js" Line="1" Column="1" />
+      <File FileName="Assets/Engine Scripts/GenLevelLoad.js" Line="6" Column="41" />
       <File FileName="Assets/ItemUse.js" Line="1" Column="1" />
       <File FileName="Assets/Purchase.js" Line="1" Column="1" />
       <File FileName="Assets/JumpAnim.js" Line="1" Column="1" />
