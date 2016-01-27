@@ -125,6 +125,7 @@
      <Compile Include="Assets\Tutorial.js" />
      <Compile Include="Assets\UnlockFence.js" />
      <Compile Include="Assets\Value.js" />
+     <Compile Include="Assets\WaterMove.js" />
      <Compile Include="Assets\WaterTop.js" />
      <Compile Include="Assets\Zach Scripts\TreasureChestOpen.js" />
      <None Include="Assets\Standard Assets\Effects\GlassRefraction\Shaders\GlassStainedBumpDistort.shader" />
