@@ -15,10 +15,12 @@ var TimedLightingEvening : Color;
 var EveningSky : Material;
 var Hour = System.DateTime.Now.Hour;
 var Directional : Light;
+var SO : int;
 function Start () {
 Hour = System.DateTime.Now.Hour;
 yield WaitForSeconds (0.1);
 PlayerSprite.GetComponent(Renderer).material.color = Lighting;
+PlayerSprite.GetComponent.<SpriteRenderer>().sortingOrder = SO;
 Cam.GetComponent.<AudioSource>().clip = Music;
 Cam.GetComponent.<AudioSource>().Play();
 	if (DisCamera == true) {
