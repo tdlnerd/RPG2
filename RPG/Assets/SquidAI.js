@@ -23,6 +23,7 @@ yield WaitForSeconds(Random.Range(2,4));
 Redo = true;
 }
 
+<<<<<<< HEAD
 function OnTriggerStay2D (obj: Collider2D) {
 	if (obj.gameObject.tag == "Water") {
 	Water = true;
@@ -31,5 +32,21 @@ function OnTriggerStay2D (obj: Collider2D) {
 function OnTriggerExit2D (obj: Collider2D) {
 	if (obj.gameObject.tag == "Water") {
 	Water = false;
+=======
+function OnTriggerEnter2D (hit : Collider2D) {
+	if (hit.gameObject.tag == "Water") {
+	InWater = true;
+	GetComponent.<Animator>().SetBool("Water", true);
+	GetComponent.<Rigidbody2D>().gravityScale = 0;
+	transform.rotation.z = 0;
+	}
+	}
+function OnTriggerExit2D (hit : Collider2D) {
+	if (hit.gameObject.tag == "Water") {
+	InWater = false;
+GetComponent.<Animator>().SetBool("Water", false);
+	GetComponent.<Rigidbody2D>().gravityScale = 3;
+	transform.rotation.z = 180;
+>>>>>>> 09d0bb3e4cc87a349b479e5238ec906767c07a81
 	}
 	}
