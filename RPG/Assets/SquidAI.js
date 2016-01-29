@@ -4,13 +4,13 @@ var Redo = true;
 var Speed : float;
 var choicex : float;
 var choicey : float;
-var InWater = false;
+var Water = false;
 function Update () {
 	
 	if (Redo == true) {
 	AdjustDir();
 	}
-		if (InWater == true) {
+		if (Water == true) {
 	transform.position = Vector2.MoveTowards(transform.position, Vector2(choicex,choicey),   Speed* Time.deltaTime);
 	}
 }
@@ -23,13 +23,13 @@ yield WaitForSeconds(Random.Range(2,4));
 Redo = true;
 }
 
-function OnTriggerEnter2D(hit : Collider2D) {
-	if (hit.gameObject.tag == "Water") {
-	InWater = true;
+function OnTriggerStay2D (obj: Collider2D) {
+	if (obj.gameObject.tag == "Water") {
+	Water = true;
 	}
 	}
-function OnTriggerExit2D (hit : Collider2D) {
-	if (hit.gameObject.tag == "Water") {
-	InWater = false;
+function OnTriggerExit2D (obj: Collider2D) {
+	if (obj.gameObject.tag == "Water") {
+	Water = false;
 	}
 	}
