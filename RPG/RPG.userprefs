@@ -1,21 +1,9 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/SquidAI.js">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Fan.js">
     <Files>
-<<<<<<< HEAD
-      <File FileName="Assets/SquidAI.js" Line="28" Column="4" />
-      <File FileName="Assets/WaterTop.js" Line="1" Column="1" />
-      <File FileName="Assets/Standard Assets/Utility/FollowTarget.cs" Line="1" Column="1" />
-      <File FileName="Assets/LevelManager.js" Line="1" Column="1" />
-      <File FileName="Assets/Underwater.js" Line="10" Column="88" />
-=======
-      <File FileName="Assets/SquidAI.js" Line="29" Column="51" />
-      <File FileName="Assets/WaterTop.js" Line="1" Column="1" />
-      <File FileName="Assets/Standard Assets/Utility/FollowTarget.cs" Line="1" Column="1" />
-      <File FileName="Assets/LevelManager.js" Line="1" Column="1" />
-      <File FileName="Assets/Underwater.js" Line="1" Column="1" />
->>>>>>> 09d0bb3e4cc87a349b479e5238ec906767c07a81
-      <File FileName="Assets/KnightAnimationControl.js" Line="1" Column="1" />
+      <File FileName="Assets/SquidAI.js" Line="39" Column="29" />
+      <File FileName="Assets/Fan.js" Line="4" Column="54" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

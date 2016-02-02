@@ -82,6 +82,7 @@
      <Compile Include="Assets\Engine Scripts\charactermanager.js" />
      <Compile Include="Assets\Explode1.js" />
      <Compile Include="Assets\EyeBushAI.js" />
+     <Compile Include="Assets\Fan.js" />
      <Compile Include="Assets\FinalBossScene.js" />
      <Compile Include="Assets\FireballAI.js" />
      <Compile Include="Assets\HeightFix.js" />
