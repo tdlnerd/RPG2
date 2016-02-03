@@ -85,6 +85,7 @@
      <Compile Include="Assets\Fan.js" />
      <Compile Include="Assets\FinalBossScene.js" />
      <Compile Include="Assets\FireballAI.js" />
+     <Compile Include="Assets\Hatch.js" />
      <Compile Include="Assets\HeightFix.js" />
      <Compile Include="Assets\Hole.js" />
      <Compile Include="Assets\Ignorebomb.js" />
