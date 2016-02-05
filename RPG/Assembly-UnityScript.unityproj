@@ -109,6 +109,8 @@
      <Compile Include="Assets\QuitMapScreen.js" />
      <Compile Include="Assets\Rat.js" />
      <Compile Include="Assets\RatTop.js" />
+     <Compile Include="Assets\RemoveWall.js" />
+     <Compile Include="Assets\RemoveWallandFloor.js" />
      <Compile Include="Assets\SaveSystem.js" />
      <Compile Include="Assets\SetBoolCollision.js" />
      <Compile Include="Assets\ShopKeeper.js" />
