@@ -102,6 +102,7 @@
      <Compile Include="Assets\Overworld Scrips\OverheadMovement.js" />
      <Compile Include="Assets\ParticleSystems\Prefabs\Particle\Legacy Particles\TimedObjectDestructor.js" />
      <Compile Include="Assets\Platform.js" />
+     <Compile Include="Assets\Potion.js" />
      <Compile Include="Assets\Prophecy.js" />
      <Compile Include="Assets\Purchase.js" />
      <Compile Include="Assets\PurchaseBoat.js" />
