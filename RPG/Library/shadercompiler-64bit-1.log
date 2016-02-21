@@ -1,3 +1,7 @@
 Base path: /Applications/Unity/Unity.app/Contents
+<<<<<<< HEAD
 Pipe name: \\.\pipe\UnityShaderCompiler-64bit-1-1933406976
+=======
+Pipe name: \\.\pipe\UnityShaderCompiler-64bit-1-2084741120
+>>>>>>> Mining Town
 Cmd: getPlatforms
