@@ -9,6 +9,7 @@ var Price : int;
 var Purchasing = false;
 var Slot : GameObject;
 var Item : GameObject;
+var Added = false;
 function OnTriggerStay2D () {
 
 Disp = true;
@@ -34,6 +35,7 @@ if (Input.GetKeyDown("down") && Purchasing == false && line < Text.Length && LL 
 }
 	if (Input.GetKeyDown("y") && LL == true){
 		Purchase();
+		Added = false;
 		}	
 	if (Input.GetKeyDown("n") && LL == true){
 		Cancel();
@@ -56,12 +58,12 @@ function Purchase() {
 	MessageBox.text = "Thank you for your purchase!";
 	var allChildren = Slot.GetComponentsInChildren(Transform);
 	for (var child : Transform in allChildren) {
-		if (child.childCount == 0) {
+		if (child.childCount == 0 && child.gameObject.name == "SLOT" && Added == false) {
 		var Icon = Instantiate(Item, transform.position, Quaternion.identity);
-		Icon.transform.parent = child.transform;
-		GetComponent.<RectTransform>().position.x = 0;
-		GetComponent.<RectTransform>().position.y = 0;
-		GetComponent.<RectTransform>().position.z = 0;
+		Icon.transform.SetParent(child, false);
+		Icon.name = Icon.name.Replace("(Clone)","").Trim();
+		Added = true;
+		CashS.Cash -= Price;
 }
 }
 }

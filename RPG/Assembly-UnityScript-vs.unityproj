@@ -102,6 +102,7 @@
      <Compile Include="Assets\Overworld Scrips\OverheadMovement.js" />
      <Compile Include="Assets\ParticleSystems\Prefabs\Particle\Legacy Particles\TimedObjectDestructor.js" />
      <Compile Include="Assets\Platform.js" />
+     <Compile Include="Assets\Potion.js" />
      <Compile Include="Assets\Prophecy.js" />
      <Compile Include="Assets\Purchase.js" />
      <Compile Include="Assets\PurchaseBoat.js" />
@@ -112,6 +113,7 @@
      <Compile Include="Assets\RemoveWall.js" />
      <Compile Include="Assets\RemoveWallandFloor.js" />
      <Compile Include="Assets\SaveSystem.js" />
+     <Compile Include="Assets\SerItems.js" />
      <Compile Include="Assets\SetBoolCollision.js" />
      <Compile Include="Assets\ShopKeeper.js" />
      <Compile Include="Assets\Sign.js" />
