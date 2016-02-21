@@ -4,7 +4,7 @@ function Start () {
 damage = GameObject.Find("Slider").GetComponent(UI.Slider);
 }
 function Restore () {
-var Health = damage.value / 0.25;
+var Health = (50 / damage.value) * 10;
 damage.value += Health;
 Destroy(gameObject);
 }

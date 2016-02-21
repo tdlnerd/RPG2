@@ -61,6 +61,7 @@ function Purchase() {
 		if (child.childCount == 0 && child.gameObject.name == "SLOT" && Added == false) {
 		var Icon = Instantiate(Item, transform.position, Quaternion.identity);
 		Icon.transform.SetParent(child, false);
+		Icon.name = Icon.name.Replace("(Clone)","").Trim();
 		Added = true;
 		CashS.Cash -= Price;
 }

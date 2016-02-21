@@ -1,16 +1,10 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Potion.js">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/SerItems.js">
     <Files>
-      <File FileName="Assets/Item.js" Line="1" Column="1" />
-      <File FileName="Assets/RemoveWall.js" Line="1" Column="1" />
-      <File FileName="Assets/Fan.js" Line="1" Column="1" />
-      <File FileName="Assets/SquidAI.js" Line="1" Column="1" />
-      <File FileName="Assets/Hatch.js" Line="1" Column="1" />
-      <File FileName="Assets/SpawnSystem.js" Line="1" Column="1" />
-      <File FileName="Assets/Platform.js" Line="1" Column="1" />
-      <File FileName="Assets/Potion.js" Line="7" Column="33" />
+      <File FileName="Assets/Potion.js" Line="2" Column="1" />
       <File FileName="Assets/Engine Scripts/Damage2D.js" Line="1" Column="1" />
+      <File FileName="Assets/SerItems.js" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
