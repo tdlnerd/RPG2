@@ -2,6 +2,7 @@
  var Slot : GameObject;
  var Items : GameObject[];
  function Save () {
+ Slot.SetActive(true);
  var Spot = 0;
  	 Items = GameObject.FindGameObjectsWithTag("Icon");
      for (var ArrData : GameObject in Items) {
