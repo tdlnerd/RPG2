@@ -157,10 +157,17 @@
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlendForBloom.shader" />
  <Reference Include="Assembly-UnityScript">
 <<<<<<< HEAD
+<<<<<<< HEAD
  <HintPath>/Users/tanner.luce/Google Drive/Junior Files/11th Grade/Advanced Game Design/Pikuseru/RPG/Library/ScriptAssemblies/Assembly-UnityScript.dll</HintPath>
 =======
  <HintPath>/Users/Tanner/Desktop/11th Grade/Advanced Game Design/Pikuseru/RPG/Library/ScriptAssemblies/Assembly-UnityScript.dll</HintPath>
 >>>>>>> Mining Town
+=======
+ <HintPath>/Users/Tanner/Desktop/11th Grade/Advanced Game Design/Pikuseru/RPG/Library/ScriptAssemblies/Assembly-UnityScript.dll</HintPath>
+=======
+ <HintPath>/Users/tanner.luce/Google Drive/Junior Files/11th Grade/Advanced Game Design/Pikuseru/RPG/Library/ScriptAssemblies/Assembly-UnityScript.dll</HintPath>
+>>>>>>> 7c999b91533e47be8da509b08624476fe5cad4df
+>>>>>>> d02253a30ba513fd57f1f7f758db6f7ea09aceac
  </Reference>
  <Reference Include="UnityEngine.UI">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>

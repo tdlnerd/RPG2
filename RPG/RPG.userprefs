@@ -1,17 +1,29 @@
 ﻿<Properties>
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+  <MonoDevelop.Ide.Workspace />
+  <MonoDevelop.Ide.Workbench ActiveDocument="../../../US History/TL/History Timeline/Assets/Movie.js">
+    <Files>
+      <File FileName="../../../US History/TL/History Timeline/Assets/Movie.js" Line="1" Column="1" />
+=======
+>>>>>>> d02253a30ba513fd57f1f7f758db6f7ea09aceac
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/SerItems.js">
     <Files>
       <File FileName="Assets/Potion.js" Line="2" Column="1" />
       <File FileName="Assets/Engine Scripts/Damage2D.js" Line="1" Column="1" />
       <File FileName="Assets/SerItems.js" Line="1" Column="1" />
+<<<<<<< HEAD
 =======
   <MonoDevelop.Ide.Workspace />
   <MonoDevelop.Ide.Workbench ActiveDocument="../../../US History/TL/History Timeline/Assets/Movie.js">
     <Files>
       <File FileName="../../../US History/TL/History Timeline/Assets/Movie.js" Line="1" Column="1" />
 >>>>>>> Mining Town
+=======
+>>>>>>> 7c999b91533e47be8da509b08624476fe5cad4df
+>>>>>>> d02253a30ba513fd57f1f7f758db6f7ea09aceac
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
