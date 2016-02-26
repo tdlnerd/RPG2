@@ -7,8 +7,6 @@ Project("{6FC6F8FA-1AA8-B7B5-9151-793B4CAEA018}") = "RPG", "Assembly-CSharp.cspr
 EndProject
 Project("{6FC6F8FA-1AA8-B7B5-9151-793B4CAEA018}") = "RPG", "Assembly-CSharp-Editor.csproj", "{00366C92-7ED2-FFA1-4310-E9B080B0170D}"
 EndProject
-Project("{6FC6F8FA-1AA8-B7B5-9151-793B4CAEA018}") = "RPG", "Assembly-UnityScript.unityproj", "{3A32AD71-96D4-17EB-2AD3-4BA4D28C5949}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,15 +25,11 @@ Global
 		{00366C92-7ED2-FFA1-4310-E9B080B0170D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{00366C92-7ED2-FFA1-4310-E9B080B0170D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{00366C92-7ED2-FFA1-4310-E9B080B0170D}.Release|Any CPU.Build.0 = Release|Any CPU
-		{3A32AD71-96D4-17EB-2AD3-4BA4D28C5949}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3A32AD71-96D4-17EB-2AD3-4BA4D28C5949}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3A32AD71-96D4-17EB-2AD3-4BA4D28C5949}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3A32AD71-96D4-17EB-2AD3-4BA4D28C5949}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
-																																																																																																																																																																																																																																																																																																																																																																	GlobalSection(MonoDevelopProperties) = preSolution
+																																																																																																																																																																																																																																																																																																																																																																							GlobalSection(MonoDevelopProperties) = preSolution
 =======
 																																																																																																																																																																																																																																																																																																																																																				GlobalSection(MonoDevelopProperties) = preSolution
 >>>>>>> Mining Town
@@ -96,5 +90,4 @@ Global
 		$3.inheritsScope = text/plain
 		$3.scope = text/plain
 	EndGlobalSection
-
 EndGlobal

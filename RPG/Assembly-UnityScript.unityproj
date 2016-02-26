@@ -113,6 +113,7 @@
      <Compile Include="Assets\RatTop.js" />
      <Compile Include="Assets\RemoveWall.js" />
      <Compile Include="Assets\RemoveWallandFloor.js" />
+     <Compile Include="Assets\Rope.js" />
      <Compile Include="Assets\SaveSystem.js" />
      <Compile Include="Assets\SerItems.js" />
      <Compile Include="Assets\SetBoolCollision.js" />
@@ -130,6 +131,7 @@
      <Compile Include="Assets\TownHall1Scene.js" />
      <Compile Include="Assets\TriggerAudio.js" />
      <Compile Include="Assets\TriggerOpen.js" />
+     <Compile Include="Assets\TubeRenderer.js" />
      <Compile Include="Assets\Tunnel.js" />
      <Compile Include="Assets\Tutorial.js" />
      <Compile Include="Assets\Underwater.js" />

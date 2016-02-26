@@ -1,12 +1,14 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Potato.js">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Tube.js">
     <Files>
-      <File FileName="Assets/Engine Scripts/Damage2D.js" Line="10" Column="53" />
+      <File FileName="Assets/Rope.js" Line="8" Column="14" />
+      <File FileName="Assets/Engine Scripts/Damage2D.js" Line="1" Column="1" />
       <File FileName="Assets/Potion.js" Line="1" Column="1" />
       <File FileName="Assets/SerItems.js" Line="1" Column="1" />
-      <File FileName="Assets/Potato.js" Line="20" Column="21" />
+      <File FileName="Assets/Potato.js" Line="1" Column="1" />
       <File FileName="Assets/Engine Scripts/EnemyDamage.js" Line="1" Column="1" />
+      <File FileName="Assets/Tube.js" Line="163" Column="2" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
