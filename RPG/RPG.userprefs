@@ -1,6 +1,6 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Engine Scripts/GenLevelLoad.js">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Engine Scripts/3DBird.js">
     <Files>
       <File FileName="Assets/Rope.js" Line="1" Column="1" />
       <File FileName="Assets/Engine Scripts/Damage2D.js" Line="1" Column="1" />
@@ -9,6 +9,8 @@
       <File FileName="Assets/Potato.js" Line="1" Column="1" />
       <File FileName="Assets/Engine Scripts/EnemyDamage.js" Line="1" Column="1" />
       <File FileName="Assets/Engine Scripts/GenLevelLoad.js" Line="1" Column="1" />
+      <File FileName="Assets/Engine Scripts/3DBird.js" Line="21" Column="17" />
+      <File FileName="Assets/SkeletonAI.js" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
