@@ -9,3 +9,7 @@ yield WaitForSeconds (0.9);
 Application.LoadLevel(L2L);
 }
 }
+
+if (Anim == null) {
+	Anim = GameObject.Find("Map View3").GetComponent(Animator);
+	}

@@ -1,14 +1,13 @@
 fileFormatVersion: 2
-<<<<<<< HEAD
 guid: 2de4fe5525bb745e8809b82936b726d0
-timeCreated: 1453211567
-=======
-guid: d8d7ce0a0123441678e43c3138ee7253
-timeCreated: 1453217581
->>>>>>> 864bca98dc27329c11ee65a33993ddd4c5659817
+timeCreated: 1453220894
 licenseType: Free
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: SailorWalkcycle_0
+    21300002: SailorWalkcycle_1
+    21300004: SailorWalkcycle_2
+    21300006: SailorWalkcycle_3
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -34,15 +33,15 @@ TextureImporter:
   textureFormat: -1
   maxTextureSize: 2048
   textureSettings:
-    filterMode: -1
-    aniso: -1
+    filterMode: 0
+    aniso: 16
     mipBias: -1
     wrapMode: 1
   nPOTScale: 0
   lightmap: 0
   rGBM: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -53,7 +52,47 @@ TextureImporter:
   textureType: 8
   buildTargetSettings: []
   spriteSheet:
-    sprites: []
+    sprites:
+    - name: SailorWalkcycle_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 6
+        width: 12
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SailorWalkcycle_1
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 6
+        width: 10
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SailorWalkcycle_2
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 6
+        width: 11
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: SailorWalkcycle_3
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 6
+        width: 10
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 
   assetBundleName: 
