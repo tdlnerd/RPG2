@@ -156,7 +156,11 @@
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlurAndFlares.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlendForBloom.shader" />
  <Reference Include="Assembly-UnityScript">
+<<<<<<< HEAD
+ <HintPath>/Users/john.day/Desktop/Project/Pikuseru/RPG/Library/ScriptAssemblies/Assembly-UnityScript.dll</HintPath>
+=======
  <HintPath>/Users/tanner.luce/Desktop/RPGNew/RPG/Library/ScriptAssemblies/Assembly-UnityScript.dll</HintPath>
+>>>>>>> c7b57dd4904bd862a1b7df62512b416030509768
  </Reference>
  <Reference Include="UnityEngine.Analytics">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
