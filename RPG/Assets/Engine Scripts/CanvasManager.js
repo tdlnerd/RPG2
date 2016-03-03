@@ -7,6 +7,7 @@ DontDestroyOnLoad (gameObject);
          }
 function Update () {
 if (Application.loadedLevelName == "Title Screen") {
+
 	Destroy(gameObject);
 }
 }

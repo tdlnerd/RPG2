@@ -1,0 +1,17 @@
+/Users/tanner.luce/Desktop/RPGNew/RPG/Temp/bin/Debug/Assembly-CSharp-firstpass.dll.mdb
+/Users/tanner.luce/Desktop/RPGNew/RPG/Temp/bin/Debug/Assembly-CSharp-firstpass.dll
+/Users/tanner.luce/Desktop/RPGNew/RPG/obj/Debug/Assembly-CSharp-firstpass.dll
+/Users/tanner.luce/Desktop/RPGNew/RPG/obj/Debug/Assembly-CSharp-firstpass.dll.mdb
+/Users/tanner.luce/Desktop/RPGNew/RPG/Temp/bin/Debug/UnityEngine.dll
+/Users/tanner.luce/Desktop/RPGNew/RPG/Temp/bin/Debug/UnityEditor.dll
+/Users/tanner.luce/Desktop/RPGNew/RPG/Temp/bin/Debug/UnityEngine.UI.dll
+/Users/tanner.luce/Desktop/RPGNew/RPG/Temp/bin/Debug/UnityEngine.Networking.dll
+/Users/tanner.luce/Desktop/RPGNew/RPG/Temp/bin/Debug/Mono.Cecil.dll
+/Users/tanner.luce/Desktop/RPGNew/RPG/Temp/bin/Debug/Unity.SerializationLogic.dll
+/Users/tanner.luce/Desktop/RPGNew/RPG/Temp/bin/Debug/Unity.DataContract.dll
+/Users/tanner.luce/Desktop/RPGNew/RPG/Temp/bin/Debug/ICSharpCode.NRefactory.dll
+/Users/tanner.luce/Desktop/RPGNew/RPG/Temp/bin/Debug/Unity.UNetWeaver.dll
+/Users/tanner.luce/Desktop/RPGNew/RPG/Temp/bin/Debug/Unity.UNetWeaver.dll.mdb
+/Users/tanner.luce/Desktop/RPGNew/RPG/Temp/bin/Debug/Unity.CecilTools.dll
+/Users/tanner.luce/Desktop/RPGNew/RPG/Temp/bin/Debug/Mono.Cecil.Pdb.dll
+/Users/tanner.luce/Desktop/RPGNew/RPG/Temp/bin/Debug/Mono.Cecil.Mdb.dll
